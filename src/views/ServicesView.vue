@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="banner-top relative grid grid-cols-4">
-      <h2 class="banner-top__text text-white absolute left-0 right-0 text-center top-1/2 font-semibold text-4xl">
+      <h2 class="banner__text banner-top__text text-white absolute left-0 right-0 text-center top-1/2 text-4xl font-bold bg-black bg-opacity-30 p-4 rounded ">
         Supera tus expectativas de impresión.
       </h2>
       <img class="w-full aspect-ratio-square" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/FLEXO-1.jpg" loading="lazy">
@@ -22,7 +22,7 @@
           <span>Ventajas:</span>
           <ul class="list-outside list-disc mb-4 pl-6">
             <li>Alta velocidad de producción.</li>
-            <li>Versatilidad en materiales y una.</li>
+            <li>Versatilidad en materiales.</li>
             <li>Excelente calidad de impresión.</li>
             <li>Ideal para grandes volúmenes.</li>
             <li>Detalles precisos.</li>
@@ -110,5 +110,45 @@ import BarComponent from '@/components/common/BarComponent.vue';
 .services__container {
   width: calc(100% - 200px * 2);
   margin-inline: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .services__container {
+    width: calc(100% - 40px); /* Reduce los márgenes laterales en móviles */
+    padding: 0 10px;
+  }
+
+  h1{
+    font-size: 90%;
+  }
+
+  h2{
+    font-size: 90%;
+  }
+
+  p{
+    font-size: 90%;
+  }
+
+  span{
+    font-size: 80%;
+  }
+
+  li{
+    font-size: 70%;
+  }
+
+  .banner-top {
+  .banner-top__text {
+    transform: translateY(-50%);
+  }
+
+  .banner__text {
+  text-shadow: 0 0 1.5px black;
+}
+  img {
+    height: 150px;
+  }
+}
 }
 </style>

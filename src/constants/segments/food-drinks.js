@@ -1,6 +1,6 @@
 const FOOD_AND_DRINKS = {
     bannerTop: {
-      image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-1427536053.jpg',
+      image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/file-1.jpg',
       text: 'Haz de tu etiqueta un vendedor silencioso.'
     },
     title: 'Alimentos y bebidas',
@@ -10,14 +10,14 @@ const FOOD_AND_DRINKS = {
         images: [
           {
             text: 'Salsas y aderezos',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/eric-prouzet-wsgp7WsiwCM-unsplash.jpg'
+            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/alimentos-salsas.jpg'
           },
           {
             text: 'Alimentos congelados',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/CONGELADOS.png'
+            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/alimentos-congelados.png'
           },
           {
-            text: 'Lacteos',
+            text: 'Lácteos',
             image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/LACTEOS.webp'
           },
           {

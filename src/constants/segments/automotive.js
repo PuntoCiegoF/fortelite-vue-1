@@ -3,7 +3,7 @@ const AUTOMOTIVE = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/AutoZone_Store_Miami_FL_-_interior_July_2022_-_04-scaled.jpg',
     text: 'Etiquetas resistentes a condiciones extremas.'
   },
-  title: 'Industrial',
+  title: 'Automotriz',
   infoList: {
     showBar: true,
     list: [

@@ -83,3 +83,34 @@ export const HOME_CAROUSEL_VIDEOS =[
     type: 'video/mp4'
   },
 ];
+
+export const HOME_CAROUSEL_IMAGES = [
+  { 
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0106.png', 
+    type: 'image/jpeg'
+  },
+  { 
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0103.png', 
+    type: 'image/jpeg'
+  },
+  { 
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0101.png', 
+    type: 'image/jpeg'
+  },
+  { 
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0093.png', 
+    type: 'image/jpeg'
+  },
+  { 
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0084.png', 
+    type: 'image/jpeg'
+  },
+  { 
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0037.png', 
+    type: 'image/jpeg'
+  },
+  { 
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0026.png', 
+    type: 'image/jpeg'
+  },
+];

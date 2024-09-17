@@ -1,6 +1,6 @@
 const HOME = {
   bannerTop: {
-    image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-472659440-scaled.jpg',
+    image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/file-5.jpg',
     text: 'Potencializa el valor de tus productos.'
   },
   title: 'Hogar',
@@ -26,7 +26,7 @@ const HOME = {
         },
         {
           text: 'Ambientadores y fragancias',
-          image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/mdmanzana.png'
+          image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/hogar-ambientadores-y-fragancias.png'
         },
         {
           text: 'Utensilios de cocina y accesorios',
@@ -47,7 +47,7 @@ const HOME = {
         },
         {
           text: "Productos para jardín y exteriores",
-          image: "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/Insecticida-Boom-scaled.jpg",
+          image: "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/hogar-productos-jardin.jpg",
         },
         {
           text: "Iluminación y electrodomésticos",

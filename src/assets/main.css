@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'flowbite';
+@import '/node_modules/flowbite-vue/dist/index.css';
 
 :root {
     --sky-300: #2DBCDA;

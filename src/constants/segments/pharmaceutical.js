@@ -29,7 +29,7 @@ const PHARMACEUTICAL = {
       columns: 2,
       images: [
         'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/farmaceutica-1.jpg',
-        'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/farmaceutica-3.jpg',
+        'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/farmaceutica-parte-abajo.png'
       ]
     }
   ],

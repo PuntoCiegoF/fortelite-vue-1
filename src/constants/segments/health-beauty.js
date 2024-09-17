@@ -14,7 +14,7 @@ const HEALTH_BEAUTY = {
         },
         {
           text: 'Cuidado de la piel',
-          image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/CUIDADO-DE-LA-PIEL.webp'
+          image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/salud-y-belleza-cuidado-piel.jpg'
         },
         {
           text: 'Cuidado del cabello',
@@ -34,7 +34,7 @@ const HEALTH_BEAUTY = {
         },
         {
           text: 'Productos de cuidado oral',
-          image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/Free-Sample-Custom-OEM-ODM-Nail-Salon-Care-Cuticle-Oil-Nutrition-Private-Label-Nail-Cuticle-Oil.webp'
+          image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/salud-y-belleza-cuidado-oral.jpg'
         },
         {
           text: 'Cuidado de las uñas',
