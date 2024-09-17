@@ -5,7 +5,7 @@
         <h2 class="mb-4 font-semibold">Grupo Fortelite México</h2>
         <nav>
           <ul class="flex flex-col font-light">
-            <li>www.fortelitelabels.mx</li>
+            <li>www.fortelite.com</li>
             <li >
               Teléfono: +52 8118725333
               
