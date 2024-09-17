@@ -3,7 +3,7 @@
 <template>
   <div class="video__container text-white text-center">
 
-    <video controls autoplay loop muted playsinline class="video__element" ref="reproductor" @canplay="handleCanPlay" :style="{ display: videoVisible ? 'block' : 'none' }">
+    <video muted autoplay loop playsinline class="video__element" ref="reproductor" @canplay="handleCanPlay" :style="{ display: videoVisible ? 'block' : 'none' }">
       <source src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/VIDEO-pag-inicio1.mp4"
         type="video/mp4">
       Tu navegador no soporta el elemento de video.
