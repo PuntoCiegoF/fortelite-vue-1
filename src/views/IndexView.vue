@@ -77,7 +77,6 @@
   </div>
 </template>
         <h2 class="text-center text-5xl text-white font-semibold mb-12">
-        </div>
           Segmentos
         </h2>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-y-16">
