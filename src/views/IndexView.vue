@@ -39,6 +39,40 @@
     <BarComponent position="top-left" height="20" width="320" inverted />
     <div class="bg-primary py-14">
       <ContainerComponent>
+        <hr class="my-10">
+<ContainerComponent class="pt-8 pb-20">
+  <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">Certificaciones:</h2>
+  <div class="flex flex-col justify-center text-lg">
+    <div class="grid gap-4 certifications">
+      <img class="w-full aspect-square object-contain" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/1.png" />
+      <p class="text-descript">
+        <span class="text-primary font-bold">ISO 9001:2015:</span>
+        Estándar internacional enfocado en proporcionar productos y/o servicios que cumplan con los requerimientos internos y externos de manera eficaz para controlar y mejorar su rendimiento.
+      </p>
+    </div>
+    <div class="grid gap-4 certifications">
+      <img class="mx-auto w-6/12 aspect-square object-contain" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/2.png" />
+      <p class="text-descript">
+        <span class="text-primary font-bold">UL:</span>
+        Norma que garantiza el cumplimiento de requisitos aplicables a productos con respecto a su potencial riesgo de incendio, descarga eléctrica y peligros mecánicos.
+      </p>
+    </div>
+    <div class="grid gap-4 certifications">
+      <img class="w-full aspect-square object-contain" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/rohs-icon-symbol-vector.jpg" />
+      <p class="text-descript">
+        <span class="text-primary font-bold">RoHS:</span>
+        Restringe sustancias peligrosas en productos electrónicos, como plomo y mercurio, para proteger la salud y el medio ambiente, promoviendo la seguridad y la sostenibilidad.
+      </p>
+    </div>
+    <div class="grid gap-4 certifications">
+      <img class="mx-auto w-9/12 aspect-square object-contain" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/fsc-3-logo-png-transparent.png" />
+      <p class="text-descript">
+        <span class="text-primary font-bold">FSC:</span>
+        Asegura que los materiales provienen de bosques gestionados de manera responsable, promoviendo la conservación ambiental y el desarrollo social y económico sostenible.
+      </p>
+    </div>
+  </div>
+</ContainerComponent>
         <h2 class="text-center text-5xl text-white font-semibold mb-12">
         </div>
           Segmentos
