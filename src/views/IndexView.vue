@@ -32,13 +32,7 @@
             a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
-        </div>
-      </div>
-    </ContainerComponent>
-    <BarComponent position="top-left" height="20" width="320" inverted />
-    <div class="bg-primary py-14">
-      <ContainerComponent>
-        <h2 class="text-center text-5xl text-white font-semibold mb-12">
+        </div
           <hr class="my-10">
     <ContainerComponent class="pt-8 pb-20">
       <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">Certificaciones:</h2>
@@ -85,6 +79,12 @@
             ambiental y el
             desarrollo social y económico sostenible
           </p>
+      </div>
+    </ContainerComponent>
+    <BarComponent position="top-left" height="20" width="320" inverted />
+    <div class="bg-primary py-14">
+      <ContainerComponent>
+        <h2 class="text-center text-5xl text-white font-semibold mb-12">
         </div>
           Segmentos
         </h2>
