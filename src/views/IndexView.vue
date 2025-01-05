@@ -33,7 +33,7 @@
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
          </div>
-        <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">
+        <div class="text-sky-300 text-center text-5xl font-bold mb-8">
           Certificaciones:
         </h2>
       <div class="flex flex-col justify-center text-lg">
