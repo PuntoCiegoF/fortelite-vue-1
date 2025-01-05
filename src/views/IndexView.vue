@@ -68,13 +68,13 @@
       <p class="text-descript">
         <span class="text-primary font-bold">FSC:</span>
         Asegura que los materiales provienen de bosques gestionados de manera responsable, promoviendo la conservación ambiental y el desarrollo social y económico sostenible.
-      </p>
-    </div>
-  </div>
-</ContainerComponent>
-</div>
-  </div>
-</template>
+   </p>
+        </div>
+      </div>
+    </ContainerComponent>
+    <BarComponent position="top-left" height="20" width="320" inverted />
+    <div class="bg-primary py-14">
+      <ContainerComponent>
         <h2 class="text-center text-5xl text-white font-semibold mb-12">
           Segmentos
         </h2>
