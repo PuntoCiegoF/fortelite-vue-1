@@ -33,7 +33,7 @@
             a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
-        </div
+        </div>
       </div>
     </ContainerComponent>
     <BarComponent position="top-left" height="20" width="320" inverted />
@@ -73,6 +73,9 @@
     </div>
   </div>
 </ContainerComponent>
+</div>
+  </div>
+</template>
         <h2 class="text-center text-5xl text-white font-semibold mb-12">
         </div>
           Segmentos
