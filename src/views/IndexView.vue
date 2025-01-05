@@ -32,6 +32,7 @@
             a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
+         </div>
         <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">Certificaciones:</h2>
       <div class="flex flex-col justify-center text-lg">
         <div class="grid gap-4 certifications">
@@ -41,7 +42,7 @@
             <span class="text-primary font-bold">ISO 9001:2015:</span>
             Estándar internacional enfocado en proporcionar productos y/o servicios que cumplan con los requerimientos
             internos y
-            externos de maneraeficaz para controlar y mejorar su rendimiento.
+            externos de manera eficaz para controlar y mejorar su rendimiento.
           </p>
         </div>
         <div class="grid gap-4 certifications">
