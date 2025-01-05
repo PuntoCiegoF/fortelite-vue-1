@@ -33,7 +33,6 @@
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
         </div
-          
           </ContainerComponent>
           <hr class="my-10">
     <ContainerComponent class="pt-8 pb-20">
