@@ -32,6 +32,9 @@
             a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
+          </ContainerComponent>
+           <hr class="my-10">
+    <ContainerComponent class="pt-8 pb-20">
         <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">
           Certificaciones:
         </h2>
