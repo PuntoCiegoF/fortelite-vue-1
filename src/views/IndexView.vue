@@ -8,18 +8,16 @@
         type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
-    
-    <img loading="lazy" class="w-full aspect-square"
-              src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_yyyy.png" />
-    
-  </div>
     </div>
+  </div>
     <div class="relative">
       <ContainerComponent tag="article">
         <div class="grid  sm:grid-col-3 lg:grid-rows-3 lg:grid-flow-col gap-4 content-center product__container py-0">
           <div class="sm:col-span-24  content-center  lg:row-span-3 mt">
             <img loading="lazy" class="w-full aspect-square"
               src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_20240819142526.gif" />
+            <img loading="lazy" class="w-full aspect-square"
+              src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_yyyy.png" />
           </div>
             <div class="sm:col-span-1 lg:col-span-1 mt">
               <h2 class="text-sky-300 text-5xl font-semibold">
