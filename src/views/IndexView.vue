@@ -24,7 +24,7 @@
             </p>
           </div>
 
-        </div>
+        <div>
         <div class="col-span-3  lg:col-span-2 pb-10">
           <p class="text-xl mt-3 ">
             Ofrecemos soluciones de etiquetas y placas metálicas impresas
@@ -32,12 +32,15 @@
             a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
+          </div>
+          <div>
           </ContainerComponent>
            <hr class="my-10">
     <ContainerComponent class="pt-8 pb-20">
         <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">
           Certificaciones:
         </h2>
+      </div>
       <div class="flex flex-col justify-center text-lg">
         <div class="grid gap-4 certifications">
           <img class="w-full aspect-square object-contain"
@@ -83,13 +86,14 @@
             </p>
           </ContainerComponent>
         </div>
-      </div>
+      <div>
     <BarComponent position="top-left" height="20" width="320" inverted />
     <div class="bg-primary py-14">
       <ContainerComponent>
         <h2 class="text-center text-5xl text-white font-semibold mb-12">
           Segmentos
         </h2>
+        </div>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-y-16">
           <div v-for="(segment, segmentIndex) in HOME_SEGMENTS" :key="`${segment.text}_${segmentIndex}`"
             class="text-center">
