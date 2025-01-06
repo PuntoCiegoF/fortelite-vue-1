@@ -82,8 +82,6 @@
             </div>
           </div>
         </ContainerComponent>
-        </p>
-              </div>
             </div>
           </ContainerComponent>
 <BarComponent position="top-left" height="20" width="320" inverted />
