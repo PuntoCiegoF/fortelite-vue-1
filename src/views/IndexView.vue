@@ -180,32 +180,6 @@ onMounted(() => {
   width: 100%;
   height: 500px; /* O el tamaño deseado del video */
   background-color: #000; /* Simulando el fondo del video */
-    }
-.responsive-image-cert {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 100%; /* La imagen ocupará todo el ancho disponible */
-  height: auto; /* Mantiene la proporción de la imagen */
-  object-fit: cover; /* Ajuste para cubrir el contenedor */
-}
-
-/* Media query para dispositivos móviles */
-@media (max-width: 768px) {
-  .responsive-image-cert {
-    width: 100%;  /* Asegura que la imagen ocupa todo el ancho disponible */
-    height: auto;  /* Mantiene la proporción de la imagen */
-    object-fit: contain;  /* La imagen se ajusta sin recortes */
-  }
-}
-
-/* Media query para pantallas más grandes (de escritorio y tablets grandes) */
-@media (min-width: 769px) {
-  .responsive-image-cert {
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* La imagen cubre el contenedor */
   }
 }
 
