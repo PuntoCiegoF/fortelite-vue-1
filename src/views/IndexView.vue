@@ -8,6 +8,9 @@
         type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
+    <img v-if="imageVisible" loading="lazy" class="w-full mt-4 aspect-square"
+      src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_20240819142526.gif" />
+  </div>
     </div>
     <div class="relative">
       <ContainerComponent tag="article">
