@@ -182,5 +182,10 @@ onMounted(() => {
   height: 500px; /* O el tamaño deseado del video */
   background-color: #000; /* Simulando el fondo del video */
   }
+@media (max-width: 768px) {
+  .responsive-image {
+    width: 100%; /* Asegura que la imagen ocupe el ancho completo en pantallas pequeñas */
+    height: auto;
+  }
 }
 </style>
