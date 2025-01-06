@@ -10,7 +10,6 @@
     </video>
     <img loading="lazy" 
          class="responsive-image-Cert" 
-         style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" 
          srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png 1300w, 
                 https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png 715w"  
          sizes="(max-width: 768px) 715px, 1300px" />
@@ -190,13 +189,10 @@ onMounted(() => {
   height: auto;
   object-fit: cover; /* Para que la imagen cubra completamente el contenedor sin distorsionar */
 }
-
-/* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   .responsive-image-Cert {
     width: 100%; /* La imagen ocupará todo el ancho disponible */
     height: auto; /* Mantiene la proporción */
-    object-fit: contain; /* Si prefieres que la imagen se ajuste dentro del contenedor */
   }
 }
 </style>
