@@ -16,14 +16,12 @@
             <img loading="lazy" class="w-full aspect-square"
               src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_20240819142526.gif" />
           </div>
-          <div>
             <div class="sm:col-span-1 lg:col-span-1 mt">
               <h2 class="text-sky-300 text-5xl font-semibold">Fortelite</h2>
               <p class="text-2xl text-blue mt-2 font-semibold">
                 Expertos en etiquetas industriales y especializadas
               </p>
             </div>
-          </div>
           <div class="col-span-3  lg:col-span-2 pb-10">
             <p class="text-xl mt-3 ">
               Ofrecemos soluciones de etiquetas y placas metálicas impresas
