@@ -9,7 +9,7 @@
       Tu navegador no soporta el elemento de video.
     </video>
     <img loading="lazy" 
-         class="responsive-image" 
+         class="responsive-image-Cert" 
          style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" 
          srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png 1300w, 
                 https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png 715w"  
@@ -175,12 +175,27 @@ onMounted(() => {
     width: 50%;
     /* Ajusta el ancho de la imagen para dispositivos móviles */
     margin-bottom: 16px;
-  
   }
   .video-placeholder {
   width: 100%;
   height: 500px; /* O el tamaño deseado del video */
   background-color: #000; /* Simulando el fondo del video */
+  responsive-image-Cert {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Para que la imagen cubra completamente el contenedor sin distorsionar */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .responsive-image-Cert {
+    width: 100%; /* La imagen ocupará todo el ancho disponible */
+    height: auto; /* Mantiene la proporción */
+    object-fit: contain; /* Si prefieres que la imagen se ajuste dentro del contenedor */
   }
 }
 </style>
