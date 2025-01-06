@@ -187,6 +187,7 @@ onMounted(() => {
   height: auto;
   object-fit: cover;
   }
+  
   @media (max-width: 600px) {
   .responsive-image {
   }
