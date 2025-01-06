@@ -81,9 +81,9 @@
             ambiental y el
             desarrollo social y económico sostenible
             </p>
+          </ContainerComponent>
         </div>
       </div>
-    </ContainerComponent>
     <BarComponent position="top-left" height="20" width="320" inverted />
     <div class="bg-primary py-14">
       <ContainerComponent>
