@@ -10,7 +10,7 @@
     </video>
     <img loading="lazy" 
      class="w-full aspect-square"
-     src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy444.png"
+     src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png"
      style="width: 1300px; height: 152px; object-fit: cover; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" 
      onload="if(window.innerWidth <= 768) { this.style.width = '100%'; this.style.height = 'auto'; this.style.marginLeft = '10px'; this.style.marginRight = '10px'; this.style.marginTop = '10px'; this.style.marginBottom = '10px'; }" />
     </div>
