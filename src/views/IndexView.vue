@@ -186,12 +186,12 @@ onMounted(() => {
 }
 
 @media (max-width: 768px) {
-  .responsive-image {
+  .responsive-image-cert {
     content: url('https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy');
   }
 }
 
 @media (min-width: 769px) {
-  .responsive-image {
+  .responsive-image-cert {
     content: url('https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44');
 </style>
