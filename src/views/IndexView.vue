@@ -34,9 +34,10 @@
     </ContainerComponent>
   </div>
            <section class="certifications-section pt-8 pb-20">
-    <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">Certificaciones:</h2>
+    <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">
+      Certificaciones:
+    </h2>
     <div class="flex flex-wrap justify-center gap-8 text-lg">
-      <!-- Certificación 1 -->
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
         <div class="grid gap-4 certifications">
           <img class="w-full aspect-square object-contain"
@@ -48,7 +49,6 @@
         </div>
       </div>
 
-      <!-- Certificación 2 -->
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
         <div class="grid gap-4 certifications">
           <img class="mx-auto w-6/12 aspect-square object-contain"
@@ -60,7 +60,6 @@
         </div>
       </div>
 
-      <!-- Certificación 3 -->
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
         <div class="grid gap-4 certifications">
           <img class="w-full aspect-square object-contain"
@@ -72,7 +71,6 @@
         </div>
       </div>
 
-      <!-- Certificación 4 -->
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
         <div class="grid gap-4 certifications">
           <img class="mx-auto w-9/12 aspect-square object-contain"
