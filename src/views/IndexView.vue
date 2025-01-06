@@ -33,7 +33,8 @@
             el mercado de la industria de impresión de etiquetas y placas metálicas.
           </p>
           </div>
-          <ContainerComponent class="pt-8 pb-20">
+         
+        <ContainerComponent class="pt-8 pb-20">
           <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">Certificaciones:</h2>
           <div class="flex flex-col justify-center text-lg">
             <div class="grid gap-4 certifications">
@@ -81,8 +82,9 @@
             </div>
           </div>
         </ContainerComponent>
-        </div>
-      <div>
+          
+          </div>
+        </ContainerComponent>
     <BarComponent position="top-left" height="20" width="320" inverted />
     <div class="bg-primary py-14">
       <ContainerComponent>
