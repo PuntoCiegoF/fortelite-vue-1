@@ -16,8 +16,6 @@
           <div class="sm:col-span-24  content-center  lg:row-span-3 mt">
             <img loading="lazy" class="w-full aspect-square"
               src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_20240819142526.gif" />
-            <img loading="lazy" class="w-full aspect-square"
-              src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png" />
           </div>
             <div class="sm:col-span-1 lg:col-span-1 mt">
               <h2 class="text-sky-300 text-5xl font-semibold">
