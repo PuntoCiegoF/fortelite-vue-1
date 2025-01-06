@@ -23,7 +23,6 @@
                 Expertos en etiquetas industriales y especializadas
               </p>
             </div>
-  
           </div>
           <div class="col-span-3  lg:col-span-2 pb-10">
             <p class="text-xl mt-3 ">
@@ -33,7 +32,6 @@
               el mercado de la industria de impresión de etiquetas y placas metálicas.
             </p>
         </div>
-         
         <ContainerComponent class="pt-8 pb-20">
           <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">Certificaciones:</h2>
           <div class="flex flex-col justify-center text-lg">
