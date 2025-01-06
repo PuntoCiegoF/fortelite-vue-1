@@ -8,7 +8,7 @@
         type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
-     <img loading="lazy" class="w-full aspect-square" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" style="width: 1300px; height: 152px; object-fit: cover; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" />
+     <img loading="lazy" class="w-full aspect-square image-custom-size" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" style="width: 1300px; height: 152px; object-fit: cover; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" />
     </div>
     <div class="relative">
       <ContainerComponent tag="article">
