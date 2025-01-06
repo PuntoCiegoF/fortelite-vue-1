@@ -8,8 +8,7 @@
         type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
-    </div>
-  </div>
+    <div>
     <div class="relative">
       <ContainerComponent tag="article">
         <div class="grid  sm:grid-col-3 lg:grid-rows-3 lg:grid-flow-col gap-4 content-center product__container py-0">
