@@ -31,7 +31,6 @@
             </p>
         </div>
         <ContainerComponent class="pt-8 pb-20">
-         <ContainerComponent class="pt-8 pb-20">
   <h2 class="text-sky-300 text-center text-5xl font-bold mb-8">Certificaciones:</h2>
   <!-- Uso de flex con espacio entre los elementos y alineación correcta -->
   <div class="flex flex-wrap justify-center gap-8 text-lg"> <!-- flex-wrap para que se adapten en pantallas pequeñas -->
