@@ -10,8 +10,6 @@
     </video>
     <img loading="lazy" 
      class="responsive-image-cert" 
-     src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" 
-     alt="Imagen adaptada a escritorio y móvil" 
      style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" />
     </div>
     <div class="relative">
