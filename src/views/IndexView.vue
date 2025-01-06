@@ -17,7 +17,9 @@
               src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_20240819142526.gif" />
           </div>
             <div class="sm:col-span-1 lg:col-span-1 mt">
-              <h2 class="text-sky-300 text-5xl font-semibold">Fortelite</h2>
+              <h2 class="text-sky-300 text-5xl font-semibold">
+                Fortelite
+              </h2>
               <p class="text-2xl text-blue mt-2 font-semibold">
                 Expertos en etiquetas industriales y especializadas
               </p>
@@ -48,7 +50,6 @@
           </p>
         </div>
       </div>
-
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
         <div class="grid gap-4 certifications">
           <img class="mx-auto w-6/12 aspect-square object-contain"
@@ -59,7 +60,6 @@
           </p>
         </div>
       </div>
-
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
         <div class="grid gap-4 certifications">
           <img class="w-full aspect-square object-contain"
@@ -70,7 +70,6 @@
           </p>
         </div>
       </div>
-
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
         <div class="grid gap-4 certifications">
           <img class="mx-auto w-9/12 aspect-square object-contain"
@@ -84,8 +83,7 @@
     </div>
   </section>
 </template>
-            </div>
-          </ContainerComponent>
+            
 <BarComponent position="top-left" height="20" width="320" inverted />
 <div class="bg-primary py-14">
   <ContainerComponent>
