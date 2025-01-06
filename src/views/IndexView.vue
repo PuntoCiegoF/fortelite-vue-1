@@ -8,9 +8,12 @@
         type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
-    <img loading="lazy" 
+   <img loading="lazy" 
      class="responsive-image-cert" 
-     style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" />
+     style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" 
+     srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png 1300w, 
+            https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png 715w"  
+     sizes="(max-width: 768px) 715px, 1300px" />
     </div>
     <div class="relative">
       <ContainerComponent tag="article">
@@ -177,21 +180,33 @@ onMounted(() => {
   width: 100%;
   height: 500px; /* O el tamaño deseado del video */
   background-color: #000; /* Simulando el fondo del video */
-  .responsive-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    }
+.responsive-image-cert {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%; /* La imagen ocupará todo el ancho disponible */
+  height: auto; /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Ajuste para cubrir el contenedor */
 }
 
+/* Media query para dispositivos móviles */
 @media (max-width: 768px) {
   .responsive-image-cert {
-    content: url('https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy');
+    width: 100%;  /* Asegura que la imagen ocupa todo el ancho disponible */
+    height: auto;  /* Mantiene la proporción de la imagen */
+    object-fit: contain;  /* La imagen se ajusta sin recortes */
   }
 }
 
+/* Media query para pantallas más grandes (de escritorio y tablets grandes) */
 @media (min-width: 769px) {
   .responsive-image-cert {
-    content: url('https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44');
-    }
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* La imagen cubre el contenedor */
+  }
 }
+
 </style>
