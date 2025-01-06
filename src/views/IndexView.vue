@@ -10,7 +10,9 @@
     </video>
     <img loading="lazy" 
      class="responsive-image" 
-     src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" />
+     src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" 
+     alt="Imagen adaptada a escritorio y móvil" 
+     style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" />
     </div>
     <div class="relative">
       <ContainerComponent tag="article">
@@ -172,12 +174,28 @@ onMounted(() => {
     width: 50%;
     /* Ajusta el ancho de la imagen para dispositivos móviles */
     margin-bottom: 16px;
-    /* Espacio entre las imágenes en dispositivos móviles */
+  
   }
   .video-placeholder {
   width: 100%;
   height: 500px; /* O el tamaño deseado del video */
   background-color: #000; /* Simulando el fondo del video */
 }
+  .responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .responsive-image {
+    content: url('https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png');
+  }
+}
+
+@media (min-width: 769px) {
+  .responsive-image {
+    content: url('"https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png"');
+  }
 }
 </style>
