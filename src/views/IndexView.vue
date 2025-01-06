@@ -13,8 +13,7 @@
          src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" 
          alt="Imagen adaptada a escritorio y móvil" 
          style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" 
-         srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png 1024w, 
-                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png 480w" 
+         srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png 480w" 
          sizes="(max-width: 768px) 480px, 1024px" />
     </div>
     <div class="relative">
