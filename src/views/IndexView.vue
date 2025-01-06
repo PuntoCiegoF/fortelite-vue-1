@@ -9,10 +9,13 @@
       Tu navegador no soporta el elemento de video.
     </video>
     <img loading="lazy" 
-     class="responsive-image" 
-     src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" 
-     alt="Imagen adaptada a escritorio y móvil" 
-     style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" />
+         class="responsive-image" 
+         src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png" 
+         alt="Imagen adaptada a escritorio y móvil" 
+         style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;" 
+         srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png 1024w, 
+                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png 480w" 
+         sizes="(max-width: 768px) 480px, 1024px" />
     </div>
     <div class="relative">
       <ContainerComponent tag="article">
@@ -185,17 +188,6 @@ onMounted(() => {
   width: 100%;
   height: auto;
   object-fit: cover;
-}
-
-@media (max-width: 768px) {
-  .responsive-image {
-    content: url('https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png');
-  }
-}
-
-@media (min-width: 769px) {
-  .responsive-image {
-    content: url('https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy44.png');
   }
 }
 </style>
