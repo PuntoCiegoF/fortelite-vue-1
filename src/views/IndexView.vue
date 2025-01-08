@@ -36,6 +36,8 @@
               especializadas para la identificación de productos y control de procesos
               a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
               el mercado de la industria de impresión de etiquetas y placas metálicas.
+
+Además contamos con certificaciones SGS y WCA. Cumplimiento normativo UL, ANSI y CSA. Y operaciones certificadas bajo esquema IMMEX.
               </p>
            </div>
       </div>
