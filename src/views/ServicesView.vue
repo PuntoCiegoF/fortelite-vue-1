@@ -33,7 +33,7 @@
           </p>
         </article>
         <article class="mb-4">
-          <h2 class="text-primary text-3xl font-bold mb-4">PLACAS MÉTALICAS</h2>
+          <h2 class="text-primary text-3xl font-bold mb-4">NAMEPLATES</h2>
           <span>Disponibles en:</span>
           <ul class="list-outside list-disc mb-4 pl-6">
             <li>Aluminio.</li>
