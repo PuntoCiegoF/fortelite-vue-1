@@ -32,12 +32,12 @@
             </div>
           <div class="col-span-3  lg:col-span-2 pb-10">
             <p class="text-xl mt-3 ">
-              Ofrecemos soluciones de etiquetas y placas metálicas impresas
+              Ofrecemos soluciones de etiquetas y nameplates impresas
               especializadas para la identificación de productos y control de procesos
               a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
-              el mercado de la industria de impresión de etiquetas y placas metálicas.
+              el mercado de la industria de impresión de etiquetas y name plates.
 
-Además contamos con certificaciones SGS y WCA. Cumplimiento normativo UL, ANSI y CSA. Y operaciones certificadas bajo esquema IMMEX.
+Cumplimiento normativo UL, ANSI y CSA. Y operaciones certificadas bajo esquema IMMEX.
               </p>
            </div>
       </div>
