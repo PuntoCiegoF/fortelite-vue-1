@@ -53,7 +53,7 @@ export const HOME_SERVICES = [
   },
   {
     src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/MG_9975-1-scaled.jpg',
-    text: 'Placas Metálicas'
+    text: 'Nameplates'
   },
   {
     src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/DSC_2273-1.jpg',
