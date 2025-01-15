@@ -57,40 +57,7 @@
             internos y
             externos de maneraeficaz para controlar y mejorar su rendimiento.
           </p>
-        </div>
-        <div class="grid gap-4 certifications">
-          <img class="mx-auto w-6/12 aspect-square object-contain"
-            src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/2.png" />
-          <p class="text-descript">
-            <span class="text-primary font-bold">UL:</span>
-            Norma que garantiza el cumplimiento de requisitos aplicables a productos con respecto a su potencial riesgo
-            de
-            incendio, descarga
-            eléctrica y peligros mecánicos.
-          </p>
-        </div>
-        <div class="grid gap-4 certifications">
-          <img class="w-full aspect-square object-contain"
-            src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/rohs-icon-symbol-vector.jpg" />
-          <p class="text-descript">
-            <span class="text-primary font-bold">RoHS:</span>
-            Restringe sustancias peligrosas en productos electrónicos, como plomo y mercurio, para proteger la salud y
-            el
-            medio ambiente,
-            promoviendo la seguridad y la sostenibilidad.
-          </p>
-        </div>
-        <div class="grid gap-4 certifications">
-          <img class="mx-auto w-9/12 aspect-square object-contain"
-            src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/fsc-3-logo-png-transparent.png" />
-          <p class="text-descript">
-            <span class="text-primary font-bold">FSC:</span>
-            Asegura que los materiales provienen de bosques gestionados de manera responsable, promoviendo la
-            conservación
-            ambiental y el
-            desarrollo social y económico sostenible
-          </p>
-        </div>
+        </div> 
       </div>
     </ContainerComponent>
     <img class="w-2/12 absolute bottom-0 left-0 -z-10"
