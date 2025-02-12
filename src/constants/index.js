@@ -71,7 +71,7 @@ export const HOME_CAROUSEL_VIDEOS =[
     type: 'video/mp4'
   },
   {
-    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/objetivos.ajuste.mp4',
+    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/objetivos-ajuste.mp4',
     type: 'video/mp4'
   },
   {
