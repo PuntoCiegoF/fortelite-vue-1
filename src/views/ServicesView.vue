@@ -40,6 +40,7 @@
             <li>Acero inoxidable.</li>
             <li>Latón</li>
             <li>Aluminio anodizado.</li>
+             <li>Gravoply.</li>
           </ul>
           <p>
             Placas para la identificación de equipos como motores electricos, maquinaria, industria química,
