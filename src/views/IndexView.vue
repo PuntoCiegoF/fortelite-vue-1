@@ -65,7 +65,7 @@ Cumplimiento normativo UL, ANSI y CSA. Y operaciones certificadas bajo esquema I
       <h2 class="text-center text-5xl text-primary font-semibold mb-12">
         Servicios
       </h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-y-16">
         <div v-for="({ text, src }, serviceIndex) in HOME_SERVICES" :key="`${text}_${serviceIndex}`"
           class="text-center">
           <img class="w-9/12 aspect-square rounded-full mx-auto mb-6 img-services" :src="src">
