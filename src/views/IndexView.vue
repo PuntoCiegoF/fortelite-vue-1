@@ -11,8 +11,8 @@
    <img loading="lazy" 
      class="responsive-image-cert" 
      style="margin-top: 20px; margin-bottom: 20px; margin-left: 5px; margin-right: 30px;" 
-     srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/YYYY21.png 1300w, 
-            https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/yyyy.png 715w"  
+     srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert1303252.png 1300w, 
+            https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert1303252.png 715w"  
      sizes="(max-width: 768px) 715px, 1300px" />
     </div>
     <div class="relative">
