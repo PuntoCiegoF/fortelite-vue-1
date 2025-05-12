@@ -70,11 +70,6 @@
                 <img class="w-[30px] aspect-square" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/instagram-icon.svg" />
               </a>
             </li>
-            <li>
-              <a href="https://www.tiktok.com/@fortelitelabels?_t=8pmpUvhnjkc&_r=1" target="_blank">
-                <img class="w-[30px] aspect-square" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/tiktok-icon.svg" />
-              </a>
-            </li>
           </ul>
         </nav>
       </article>
