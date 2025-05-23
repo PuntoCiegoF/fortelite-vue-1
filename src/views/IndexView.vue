@@ -35,7 +35,7 @@
               Ofrecemos soluciones de etiquetas y nameplates impresas
               especializadas para la identificación de productos y control de procesos
               a nivel mundial. Esforzándonos día a día por ser los mejores líderes en
-              el mercado de la industria de impresión de etiquetas y name plates.
+              el mercado de la industria de impresión de etiquetas y nameplates.
 
 Cumplimiento normativo UL, ANSI y CSA. Y operaciones certificadas bajo esquema IMMEX.
               </p>
