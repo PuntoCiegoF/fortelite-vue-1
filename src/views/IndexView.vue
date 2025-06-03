@@ -8,13 +8,17 @@
         type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
-   <img loading="lazy" 
+     <div style="position: relative; display: inline-block;">
+   <img 
+     loading="lazy" 
      class="responsive-image-cert" 
      style="margin-top: 20px; margin-bottom: 20px; margin-left: 5px; margin-right: 30px;" 
      srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert03062025.png 1300w, 
             https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert03062025.png 715w"  
-     sizes="(max-width: 768px) 715px, 1300px" />
-    <a href="https://iq.ul.com/ul/cert.aspx?ULID=104745228" 
+     sizes="(max-width: 768px) 715px, 1300px" 
+    />
+    <a 
+      href="https://iq.ul.com/ul/cert.aspx?ULID=104745228" 
          target="_blank" 
          class="btn-certificacion"
          style="position: absolute; top: 35px; left: 110px; background-color: rgba(0,123,255,0.9); color: white; padding: 5px 10px; border-radius: 4px; font-size: 12px; text-decoration: none;"
