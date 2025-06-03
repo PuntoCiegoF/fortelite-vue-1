@@ -147,11 +147,10 @@ onMounted(() => {
   flex-direction: row;
 }
 
-/* ✅ BOTÓN POSICIONADO PARA ESCRITORIO */
 .btn-certificado-ul {
   position: absolute;
   top: 35px;
-  left: 205px;
+  left: 215px;
   background-color: rgba(0, 123, 255, 0.9);
   color: white;
   padding: 5px 10px;
@@ -160,7 +159,6 @@ onMounted(() => {
   text-decoration: none;
 }
 
-/* ✅ AJUSTES PARA MÓVILES */
 @media (max-width: 768px) {
   .clients-container {
     flex-direction: column;
@@ -184,9 +182,9 @@ onMounted(() => {
 
   .btn-certificado-ul {
     top: 20px;
-    left: 90px;
-    font-size: 8px;
-    padding: 2.5px 5px;
+    left: 70px;
+    font-size: 6px;
+    padding: 1.5px 3px;
   }
 }
 </style>
