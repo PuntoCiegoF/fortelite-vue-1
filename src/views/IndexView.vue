@@ -20,7 +20,7 @@
       <a
         href="https://iq.ul.com/ul/cert.aspx?ULID=104745228"
         target="_blank"
-        style="position: absolute; top: 35px; left: 200px; background-color: rgba(0,123,255,0.9); color: white; padding: 5px 10px; border-radius: 4px; font-size: 12px; text-decoration: none;"
+        style="position: absolute; top: 35px; left: 215px; background-color: rgba(0,123,255,0.9); color: white; padding: 5px 10px; border-radius: 4px; font-size: 12px; text-decoration: none;"
       >
         MH67689
       </a>
