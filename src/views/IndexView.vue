@@ -146,6 +146,21 @@ onMounted(() => {
   display: flex;
   flex-direction: row;
 }
+
+/* ✅ BOTÓN POSICIONADO PARA ESCRITORIO */
+.btn-certificado-ul {
+  position: absolute;
+  top: 35px;
+  left: 130px;
+  background-color: rgba(0, 123, 255, 0.9);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* ✅ AJUSTES PARA MÓVILES */
 @media (max-width: 768px) {
   .clients-container {
     flex-direction: column;
@@ -166,21 +181,10 @@ onMounted(() => {
     height: 500px;
     background-color: #000;
   }
+
   .btn-certificado-ul {
-  position: absolute;
-  top: 35px;
-  left: 130px;
-  background-color: rgba(0, 123, 255, 0.9);
-  color: white;
-  padding: 5px 10px;
-  border-radius: 4px;
-  font-size: 12px;
-  text-decoration: none;
-}
-  @media (max-width: 768px) {
-  .btn-certificado-ul {
-    top: 20px;     /* Puedes ajustar según necesites */
-    left: 70px;    /* Ajusta para que se vea bien en móviles */
+    top: 20px;
+    left: 70px;
     font-size: 11px;
     padding: 4px 8px;
   }
