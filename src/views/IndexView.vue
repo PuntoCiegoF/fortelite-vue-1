@@ -16,14 +16,13 @@
                 https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620252.png 715w"
         sizes="(max-width: 768px) 715px, 1300px"
       />
-
       <a
-        href="https://iq.ul.com/ul/cert.aspx?ULID=104745228"
-        target="_blank"
-        style="position: absolute; top: 35px; left: 215px; background-color: rgba(0,123,255,0.9); color: white; padding: 5px 10px; border-radius: 4px; font-size: 12px; text-decoration: none;"
-      >
-        MH67689
-      </a>
+  href="https://iq.ul.com/ul/cert.aspx?ULID=104745228"
+  target="_blank"
+  class="btn-certificado-ul"
+>
+  MH67689
+</a>
     </div>
   </div>
 
@@ -166,6 +165,24 @@ onMounted(() => {
     width: 100%;
     height: 500px;
     background-color: #000;
+  }
+  .btn-certificado-ul {
+  position: absolute;
+  top: 35px;
+  left: 130px;
+  background-color: rgba(0, 123, 255, 0.9);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+}
+  @media (max-width: 768px) {
+  .btn-certificado-ul {
+    top: 20px;     /* Puedes ajustar según necesites */
+    left: 70px;    /* Ajusta para que se vea bien en móviles */
+    font-size: 11px;
+    padding: 4px 8px;
   }
 }
 </style>
