@@ -12,8 +12,8 @@
         loading="lazy"
         class="responsive-image-cert"
         style="margin-top: 20px; margin-bottom: 20px; margin-left: 5px; margin-right: 30px;"
-        srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620252.png 1300w, 
-                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620252.png 715w"
+        srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253.png 1300w, 
+                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253.png 715w"
         sizes="(max-width: 768px) 715px, 1300px"
       />
       <a
@@ -21,7 +21,7 @@
   target="_blank"
   class="btn-certificado-ul"
 >
-  MH67689
+  UL: MH67689
 </a>
     </div>
   </div>
