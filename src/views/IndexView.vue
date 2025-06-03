@@ -182,7 +182,7 @@ onMounted(() => {
 
   .btn-certificado-ul {
     top: 20px;
-    left: 60px;
+    left: 65px;
     font-size: 4px;
     padding: 1px 2px;
   }
