@@ -150,7 +150,7 @@ onMounted(() => {
 .btn-certificado-ul {
   position: absolute;
   top: 35px;
-  left: 215px;
+  left: 200px;
   background-color: rgba(0, 123, 255, 0.9);
   color: white;
   padding: 5px 10px;
@@ -182,7 +182,7 @@ onMounted(() => {
 
   .btn-certificado-ul {
     top: 25px;
-    left: 65px;
+    left: 50px;
     font-size: 4px;
     padding: 1px 2px;
   }
