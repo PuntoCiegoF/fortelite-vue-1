@@ -10,7 +10,7 @@
     </div>
     <div class="relative">
       <BarComponent position="top-left" height="20" width="320" inverted />
-      <h2 class="text-center text-sky-300 text-6xl font-semibold pt-10 pb-11 text-seg">Segmentos</h2>
+      <h2 class="text-center text-sky-300 text-6xl font-semibold pt-10 pb-11 text-seg">SEGMENTOS</h2>
     </div>
     <div class="bg-primary text-white pt-10 pb-11">
       <h1 class="text-center text-6xl text-ayb">{{ props.segment.title }}</h1>
