@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="video__container text-white text-center">
     <!-- VIDEO -->
     <video muted autoplay controls loop playsinline class="video__element" ref="reproductor" @canplay="handleCanPlay" :style="{ display: videoVisible ? 'block' : 'none' }">
@@ -12,8 +12,8 @@
         loading="lazy"
         class="responsive-image-cert"
         style="margin-top: 20px; margin-bottom: 20px; margin-left: 5px; margin-right: 30px;"
-        srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620254.png 1300w, 
-                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620254.png 715w"
+        srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620255.png 1300w, 
+                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620255.png 715w"
         sizes="(max-width: 768px) 715px, 1300px"
       />
       <a
@@ -34,7 +34,7 @@
           <img loading="lazy" class="w-full aspect-square" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_20240819142526.gif" />
         </div>
         <div class="sm:col-span-1 lg:col-span-1 mt">
-          <h2 class="text-sky-300 text-5xl font-semibold">Fortelite</h2>
+          <h2 class="text-sky-300 text-5xl font-semibold">FORTELITE</h2>
           <p class="text-2xl text-blue mt-2 font-semibold">
             Expertos en etiquetas industriales y especializadas
           </p>
@@ -54,7 +54,7 @@
     <!-- SEGMENTOS -->
     <div class="bg-primary py-14">
       <ContainerComponent>
-        <h2 class="text-center text-5xl text-white font-semibold mb-12">Segmentos</h2>
+        <h2 class="text-center text-5xl text-white font-semibold mb-12">SEGMENTOS</h2>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-y-16">
           <div v-for="(segment, segmentIndex) in HOME_SEGMENTS" :key="`${segment.text}_${segmentIndex}`" class="text-center">
             <RouterLink class="inline-block w-full" :to="segment.href">
@@ -70,7 +70,7 @@
   <!-- SERVICIOS -->
   <div class="relative">
     <ContainerComponent class="py-10">
-      <h2 class="text-center text-5xl text-primary font-semibold mb-12">Servicios</h2>
+      <h2 class="text-center text-5xl text-primary font-semibold mb-12">SERVICIOS</h2>
       <div class="grid grid-cols-2 md:grid-cols-5 gap-y-16">
         <div v-for="({ text, src }, serviceIndex) in HOME_SERVICES" :key="`${text}_${serviceIndex}`" class="text-center">
           <img class="w-9/12 aspect-square rounded-full mx-auto mb-6 img-services" :src="src">
@@ -88,7 +88,7 @@
   <!-- CLIENTES -->
   <hr />
   <ContainerComponent class="py-8">
-    <h2 class="text-sky-300 text-2xl text-center font-semibold">Algunos de nuestros clientes</h2>
+    <h2 class="text-sky-300 text-2xl text-center font-semibold">ALGUNOS DE NUESTROS CLIENTES</h2>
     <div class="clients-container flex gap-2 flex-wrap">
       <img class="client__image" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/logo-HyundaiTrue.png" />
       <img class="client__image" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/NIPPON-SEIKI.png" />
@@ -153,7 +153,7 @@ onMounted(() => {
   left: 220px;
   background-color: rgba(0, 123, 255, 0.9);
   color: white;
-  padding: 5px 10px;
+  padding: 3px 6px;
   border-radius: 4px;
   font-size: 12px;
   text-decoration: none;
@@ -183,7 +183,7 @@ onMounted(() => {
   .btn-certificado-ul {
     top: 25px;
     left: 65px;
-    font-size: 4px;
+    font-size: 2px;
     padding: 1px 2px;
   }
 }
