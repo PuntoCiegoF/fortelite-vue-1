@@ -1,17 +1,19 @@
 <template>
   <div class="carousel-iner w-full h-full">
-    <carousel class="carrousel" :items-to-show="1">
-      <slide v-for="(item, idx) in carouselImages" :key="idx">
-        <div class="carousel__item h-[400px] w-full bg-cover bg-top" :style="{ backgroundImage: `url(${item.src})` }">
-          <img class="w-full h-[400px] object-cover object-top" :src="item.src" :alt="item.alt" />
-        </div>
-      </slide>
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
-  </div>
+      <carousel class="carrousel" :items-to-show="1">
+        <slide v-for="(item, idx) in carouselImages" :key="idx">
+          <!-- Versión corregida SIN imagen duplicada -->
+        <div
+            class="carousel__item h-[400px] w-full bg-cover bg-top"
+            :style="{ backgroundImage: `url(${item.src})` }"
+          ></div>
+        </slide>
+        <template #addons>
+         <navigation />
+          <pagination />
+        </template>
+      </carousel>
+    </div>
 
 
 
