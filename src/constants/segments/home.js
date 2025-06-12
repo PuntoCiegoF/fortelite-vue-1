@@ -3,7 +3,7 @@ const HOME = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/file-5.jpg',
     text: 'Potencializa el valor de tus productos.'
   },
-  title: 'Hogar',
+  title: 'HOGAR',
   segmentImages: [
     {
       columns: 3,
