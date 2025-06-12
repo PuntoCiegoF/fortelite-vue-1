@@ -3,7 +3,7 @@ const INDUSTRIAL = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-157398730-scaled.jpg',
     text: 'Seguridad, fuerza y resistencia.'
   },
-  title: 'Industrial',
+  title: 'INDUSTRIAL',
   infoList: {
     showBar: true,
     list: [
