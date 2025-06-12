@@ -1,7 +1,7 @@
 <script setup>
   
 import { CONTACT } from '@/constants/contact';
-  import 'vue3-carousel/dist/carousel.css';
+import 'vue3-carousel/dist/carousel.css'; // <- Esta línea es OBLIGATORIA
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import { computed } from 'vue';
 import { HOME_CAROUSEL_VIDEOS } from "@/constants";
@@ -54,7 +54,7 @@ const certifications = 'https://lawngreen-wallaby-976278.hostingersite.com/wp-co
   <div class="flex justify-center pt-10">
     <ContainerComponent tag="article" class="py-0">
       <div class="self-center text-center">
-        <h2 class="text-sky-300 text-6xl font-semibold">Nosotros</h2>
+        <h2 class="text-sky-300 text-6xl font-semibold">NOSOTROS</h2>
         <p class="text-4xl text-blue mt-2 font-semibold">
           Expertos en etiquetas industriales y especializadas
         </p>
