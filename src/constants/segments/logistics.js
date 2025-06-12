@@ -3,7 +3,7 @@ const LOGISTICS = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-1193312195-scaled.jpg',
     text: 'Soluciones efectivas de etiquetado'
   },
-  title: 'Logística',
+  title: 'LOGISTICA',
   infoList: {
     showBar: true,
     list: [
