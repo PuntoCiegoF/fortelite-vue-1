@@ -3,7 +3,7 @@ const ENTERTAINMENT = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-187703251-1-scaled.jpg',
     text: 'Posiciona tu marca como la #1'
   },
-  title: 'Entretenimiento',
+  title: 'ENTRETENIMIENTO',
   segmentImages: [
     {
       columns: 2,
