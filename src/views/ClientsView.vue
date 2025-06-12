@@ -74,21 +74,22 @@ const certifications = 'https://lawngreen-wallaby-976278.hostingersite.com/wp-co
     <img :src="certifications" alt="Timeline Fortelite" class="w-full">
   </section>
   <div>
-    <carousel :items-to-show="4">
-      <slide v-for="(video, idx) in carouselVideos" :key="idx">
-        <div class="carousel__item">
-          <video controls width="300px" height="400px">
-              <source :src="video.src" :type="video.type">
-              Tu navegador no soporta el elemento de video.
-            
-          </video>
-        </div>
-      </slide>
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
+  <carousel
+  :breakpoints="{
+    768: { itemsToShow: 1 },
+    1024: { itemsToShow: 4 }
+  }"
+>
+  <slide v-for="(video, idx) in carouselVideos" :key="idx">
+    <video controls autoplay muted loop class="w-full h-[400px]">
+      <source :src="video.src" :type="video.type" />
+    </video>
+  </slide>
+  <template #addons>
+    <navigation />
+    <pagination />
+  </template>
+</carousel>
   </div>
 </template>
 
