@@ -3,7 +3,7 @@ const HEALTH_BEAUTY = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-472659440-scaled.jpg',
     text: 'Muestra tu calidad a primera vista.'
   },
-  title: 'Salud y Belleza',
+  title: 'SALUD Y BELLEZA',
   segmentImages: [
     {
       columns: 3,
