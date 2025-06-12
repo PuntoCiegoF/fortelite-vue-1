@@ -1,5 +1,7 @@
 <script setup>
+  
 import { CONTACT } from '@/constants/contact';
+  import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import { computed } from 'vue';
 import { HOME_CAROUSEL_VIDEOS } from "@/constants";
