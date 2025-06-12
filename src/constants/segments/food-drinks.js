@@ -3,7 +3,7 @@ const FOOD_AND_DRINKS = {
       image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/file-1.jpg',
       text: 'Haz de tu etiqueta un vendedor silencioso.'
     },
-    title: 'Alimentos y bebidas',
+    title: 'ALIMENTOS Y BEBIDAS',
     segmentImages: [
       {
         columns: 3,
