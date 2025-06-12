@@ -1,47 +1,47 @@
 export const HOME_SEGMENTS = [
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-01-1.svg',
-    text: 'Industrial',
+    text: 'INDUSTRIAL',
     href: '/segments/industrial'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-02-1.svg',
-    text: 'Automotriz',
+    text: 'AUTOMOTRIZ',
     href: '/segments/automotriz'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-03.svg',
-    text: 'Alimentos y bebidas',
+    text: 'ALIMENTOS Y BEBIDAS',
     href: '/segments/alimentos-y-bebidas'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-04.svg',
-    text: 'Vinos y licores',
+    text: 'VINOS Y LICORES',
     href: '/segments/vinos-y-licores'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-05.svg',
-    text: 'Salud y belleza',
+    text: 'SALUD Y BELLEZA',
     href: '/segments/salud-y-belleza'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-06.svg',
-    text: 'Hogar',
+    text: 'HOGAR',
     href: '/segments/hogar'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-07.svg',
-    text: 'Farmacéutica',
+    text: 'FARMACÉUTICA',
     href: '/segments/farmaceutica'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-08.svg',
-    text: 'Entretenimiento',
+    text: 'ENTRETENIMIENTO',
     href: '/segments/entretenimiento'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-09.svg',
-    text: 'Logística',
+    text: 'LOGISTICA',
     href: '/segments/logistica'
   },
 ];
