@@ -3,7 +3,7 @@ const PHARMACEUTICAL = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-472659440-scaled.jpg',
     text: 'Potencializa el valor de tus productos.'
   },
-  title: 'Farmacéutica',
+  title: 'FARMACEUTICA',
   infoList: {
     list: [
       "Medicamentos",
