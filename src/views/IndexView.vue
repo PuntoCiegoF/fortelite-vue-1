@@ -12,8 +12,8 @@
         loading="lazy"
         class="responsive-image-cert"
         style="margin-top: 20px; margin-bottom: 20px; margin-left: 5px; margin-right: 30px;"
-        srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253.png 1300w, 
-                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253.png 715w"
+        srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620254.png 1300w, 
+                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620254.png 715w"
         sizes="(max-width: 768px) 715px, 1300px"
       />
       <a
@@ -150,7 +150,7 @@ onMounted(() => {
 .btn-certificado-ul {
   position: absolute;
   top: 35px;
-  left: 200px;
+  left: 220px;
   background-color: rgba(0, 123, 255, 0.9);
   color: white;
   padding: 5px 10px;
@@ -182,7 +182,7 @@ onMounted(() => {
 
   .btn-certificado-ul {
     top: 25px;
-    left: 57px;
+    left: 65px;
     font-size: 4px;
     padding: 1px 2px;
   }
