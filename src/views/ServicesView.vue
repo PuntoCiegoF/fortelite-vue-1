@@ -12,7 +12,7 @@
     <section class="relative text-xl pb-28">
       <BarComponent position="top-left" height="20" width="320" inverted />
       <div class="services__container">
-        <h1 class="text-6xl text-sky-300 text-center font-semibold pt-10 pb-12">Servicios</h1>
+        <h1 class="text-6xl text-sky-300 text-center font-semibold pt-10 pb-12">SERVICIOS</h1>
         <article class="mb-4">
           <h2 class="text-primary text-3xl font-bold mb-4">FLEXOGRAFÍA</h2>
           <p>
