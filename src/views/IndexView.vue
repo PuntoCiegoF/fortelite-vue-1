@@ -39,8 +39,13 @@
             Expertos en etiquetas industriales y especializadas
           </p>
           <div class="w-full flex justify-center my-6">
-          <img src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteliteMR.png" alt="Marca registrada Fortelite" class="w-full max-w-3xl h-auto rounded-md shadow-md" />
-        </div>
+    <img
+      src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteliteMR.png"
+      alt="Marca registrada Fortelite"
+      class="w-full max-w-3xl h-auto rounded-md shadow-md"
+    />
+  </div>
+</div>
         <div class="col-span-3 lg:col-span-2 pb-10">
           <p class="text-xl mt-3">
             Ofrecemos soluciones de etiquetas y nameplates impresas especializadas para la identificación de productos y control de procesos a nivel mundial.
