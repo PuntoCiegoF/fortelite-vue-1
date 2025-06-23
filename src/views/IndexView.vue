@@ -39,12 +39,12 @@
             Expertos en etiquetas industriales y especializadas
           </p>
           <div class="w-full flex justify-center my-6">
-    <img
-      src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteliteMR.png"
-      alt="Marca registrada Fortelite"
-      class="w-full max-w-6x1"
-    />
-  </div>
+  <img
+    src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteliteMR.png"
+    alt="Marca registrada Fortelite"
+    class="w-[800px] h-auto"
+  />
+</div>
 </div>
         <div class="col-span-3 lg:col-span-2 pb-10">
           <p class="text-xl mt-3">
