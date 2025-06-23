@@ -38,6 +38,7 @@
           <p class="text-2xl text-blue mt-2 font-semibold">
             Expertos en etiquetas industriales y especializadas
           </p>
+          <img src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteliteMR.png" alt="Marca registrada Fortelite" class="mx-auto mt-6 w-64" />
         </div>
         <div class="col-span-3 lg:col-span-2 pb-10">
           <p class="text-xl mt-3">
