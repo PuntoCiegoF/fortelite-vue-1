@@ -42,7 +42,7 @@
     <img
       src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteliteMR.png"
       alt="Marca registrada Fortelite"
-      class="w-full max-w-3xl h-auto rounded-md shadow-md"
+      class="w-full max-w-5xl"
     />
   </div>
 </div>
