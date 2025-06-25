@@ -38,7 +38,7 @@
           <p class="text-2xl text-blue mt-2 font-semibold">
             Expertos en etiquetas industriales y especializadas
           </p>
-          <div class="col-span-full w-full flex justify-center my-6">
+          <div class="lg:col-span-3 sm:col-span-2 w-full flex justify-center my-6">
   <img
     src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteMR.png"
     alt="Marca registrada Fortelite"
