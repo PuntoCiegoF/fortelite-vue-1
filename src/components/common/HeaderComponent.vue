@@ -2,7 +2,7 @@
   <div class="">
     <header class="header__container flex items-center gap-20 pl-20 pr-8">
       <RouterLink to="/">
-        <img class="w-[100px] h-[72px]" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/logo-arriba.svg" />
+        <img class="w-[100px] h-[72px]" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/ARRIBAMR.svg" />
       </RouterLink>
       <nav class="ml-auto">
         <ul class="hidden lg:flex items-center gap-0">
