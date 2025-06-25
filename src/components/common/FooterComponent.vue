@@ -75,7 +75,7 @@
       </article>
     </ContainerComponent>
     <ContainerComponent class="text-center mt-8">
-    <img class="w-[120px] md:w-[150px] ml-4 mb-4" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/logo-abajo.svg" alt="">
+    <img class="w-[120px] md:w-[150px] ml-4 mb-4" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/ABAJOMR.svg" alt="">
     </ContainerComponent>
     <h2 style="color: white; text-align: center; font-size: 12px;">
       Las imágenes usadas en esta página son utilizadas con fines demostrativos sobre nuestras capacidades. Descargo de Responsabilidad otorgado por la sección 107 de la ley de Propiedad intelectual sobre el “Uso Justo”.
