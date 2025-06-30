@@ -14,41 +14,50 @@
       <div class="services__container">
         <h1 class="text-6xl text-sky-300 text-center font-semibold pt-10 pb-12">SERVICIOS</h1>
         <article class="mb-4">
-          <h2 class="text-primary text-3xl font-bold mb-4">FLEXOGRAFÍA</h2>
+          <h2 class="text-primary text-3xl font-bold mb-4">ETIQUETAS</h2>
           <p>
-            La flexografía es un método de impresión que utiliza placas flexibles
-            para transferir tinta a una variedad de sustratos, perfecto para etiquetas.
+            En Fortelite contamos con las mejores etiquetas industriales y especializadas, diseñadas para soportar el alto desempeño, temperaturas extremas, humedad, químicos y condiciones extremas de uso.
+
           </p>
-          <span>Ventajas:</span>
+          <span>Disponibles en:</span>
           <ul class="list-outside list-disc mb-4 pl-6">
-            <li>Alta velocidad de producción.</li>
-            <li>Versatilidad en materiales.</li>
-            <li>Excelente calidad de impresión.</li>
-            <li>Ideal para grandes volúmenes.</li>
-            <li>Detalles precisos.</li>
+            <li>Papeles: </li>
+            <li>Papel Texturizado</li>
+            <li>Papel Hi-gloss</li>
+            <li>Papel Semi coated</li>
+            <li>Papel mate</li>
+<li>Material Sintético:</li>
+            <li>BOPP Transparente/blanco/metalizado </li>
+            <li>PET Transparente/blanco/metalizado </li>
+            <li>Vinil grado ingenieria</li>
           </ul>
           <p>
-            La flexografía es una opción técnica y eficiente para etiquetas vibrantes
-            y profesionales.
+            Tecnología de impresión: Flexografía, Digital, Offset, Serigrafía.
           </p>
         </article>
         <article class="mb-4">
           <h2 class="text-primary text-3xl font-bold mb-4">NAMEPLATES</h2>
+          <span>Nuestras placas de identificación son ideales para maquinaria, productos y equipos en entornos industriales rigurosos y exigentes.</span>
           <span>Disponibles en:</span>
+          <ul class="list-outside list-disc mb-4 pl-6">
           <ul class="list-outside list-disc mb-4 pl-6">
             <li>Aluminio.</li>
             <li>Acero inoxidable.</li>
             <li>Latón</li>
             <li>Aluminio anodizado.</li>
-             <li>Gravoply.</li>
+             <li>Gravoply.</li>  
+            <li>Policarbonato</li> 
+            <li>  Etiquetas encapsuladas</li> 
+            <li>Trovicel</li> 
           </ul>
           <p>
             Placas para la identificación de equipos como motores electricos, maquinaria, industria química,
-            aeroespacial y automotriz.
+            aeroespacial y automotriz. 
+
           </p>
           <p class="mb-4">
             Fabricadas para durar y soportar ambientes agresivos, incluso las condiciones
-            más extremas.
+            más extremas. Tecnología de impresión: Serigrafía y Grabado láser
           </p>
           <ul class="list-outside list-disc pl-6">
             <li>La identificación más duradera.</li>
