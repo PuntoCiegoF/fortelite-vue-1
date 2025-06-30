@@ -5,6 +5,7 @@
       <source src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Institucional-ajustes.mp4" type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
+   </div>
 
     <!-- IMAGEN + BOTÓN -->
     <div style="background-color: white; padding: 20px; text-align: center;">
