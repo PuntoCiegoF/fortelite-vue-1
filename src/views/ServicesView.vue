@@ -66,34 +66,28 @@
           </ul>
         </article>
         <article class="mb-4">
-          <h2 class="text-primary text-3xl font-bold mb-4">DIGITAL</h2>
+          <h2 class="text-primary text-3xl font-bold mb-4">CUMPLIMIENTO NORMATIVO</h2>
           <p>
-            La impresión digital utiliza tecnología avanzada para imprimir directamente desde
-            archivos digitales, sin necesidad de placas.
+         Experiencia en regularización y cumplimiento normativo en estándares
           </p>
-          <span>Ventajas:</span>
+          <span>Como:</span>
           <ul class="list-outside list-disc mb-4 pl-6">
-            <li>Tiempos de respuesta rápidos.</li>
-            <li>Personalización y variabilidad en una misma corrida.</li>
-            <li>Calidad en definición excepcional.</li>
-            <li>Reproducción precisa del color.</li>
+            <li>UL 969</li>
+            <li>ANSI</li>
+            <li>CSA</li>
           </ul>
-          <p>
-            La impresión digital ofrece etiquetas de alta calidad y flexibilidad sin igual.
-          </p>
         </article>
         <article>
-          <h2 class="text-primary text-3xl font-bold mb-4">OFFSET</h2>
-          <p class="mb-4">
-            La impresión offset es un método en el que la imagen de tinta se transfiere de una plancha
-            metálica a un cilindro de caucho y luego al papel u otro material.
-          </p>
-          <span>Ventajas:</span>
+          <h2 class="text-primary text-3xl font-bold mb-4">CERTIFICACIONES</h2>
+          <span>Acreditado en:</span>
           <ul class="list-outside list-disc pl-6">
-            <li>Reproducción precisa y de alta calidad de textos e imágenes.</li>
-            <li>Eficiencia en grandes volúmenes.</li>
-            <li>Puede aplicarse sobre una amplia variedad de superficies y materiales.</li>
+            <li>ISO 9001:2015</li>
+            <li>Rumbo IATF 16949</li>
+            <li>Rumbo a ISO14001</li>
           </ul>
+           <p>
+            Trabajamos proyectos con adaptabilidad dimensional y suajes personalizados
+          </p>
         </article>
       </div>
       <img class="absolute bottom-0 left-0 -z-10" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/Captura-de-pantalla-2024-07-21-a-las-12.46.58%E2%80%AFp.m-e1721587699795.png" loading="lazy">
