@@ -90,7 +90,7 @@
   <div class="relative">
     <ContainerComponent class="py-10">
       <h2 class="text-center text-5xl text-primary font-semibold mb-12">SERVICIOS</h2>
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-y-16">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-y-16">
         <div v-for="({ text, src }, serviceIndex) in HOME_SERVICES" :key="`${text}_${serviceIndex}`" class="text-center">
           <img class="w-9/12 aspect-square rounded-full mx-auto mb-6 img-services" :src="src">
           <h3 class="text-sky-300 text-center text-2xl font-semibold">{{ text }}</h3>
