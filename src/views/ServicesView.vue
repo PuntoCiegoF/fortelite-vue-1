@@ -40,7 +40,6 @@
           <span>Nuestras placas de identificación son ideales para maquinaria, productos y equipos en entornos industriales rigurosos y exigentes.</span>
           <span>Disponibles en:</span>
           <ul class="list-outside list-disc mb-4 pl-6">
-          <ul class="list-outside list-disc mb-4 pl-6">
             <li>Aluminio.</li>
             <li>Acero inoxidable.</li>
             <li>Latón</li>
