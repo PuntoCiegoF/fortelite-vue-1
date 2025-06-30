@@ -7,24 +7,25 @@
     </video>
 
     <!-- IMAGEN + BOTÓN -->
-    <div style="position: relative; display: inline-block;">
-      <img
-        loading="lazy"
-        class="responsive-image-cert"
-        style="margin-top: 20px; margin-bottom: 20px; margin-left: 5px; margin-right: 30px;"
-        srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253color.png 1300w, 
-                https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253color.png 715w"
-        sizes="(max-width: 768px) 715px, 1300px"
-      />
-      <a
-  href="https://iq.ul.com/ul/cert.aspx?ULID=104745228"
-  target="_blank"
-  class="btn-certificado-ul"
->
-  UL: MH67689
-</a>
-    </div>
+    <div style="background-color: white; padding: 20px; text-align: center;">
+  <div style="position: relative; display: inline-block;">
+    <img
+      loading="lazy"
+      class="responsive-image-cert"
+      style="margin-top: 20px; margin-bottom: 20px; margin-left: 5px; margin-right: 30px;"
+      srcset="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253color.png 1300w, 
+              https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/cert030620253color.png 715w"
+      sizes="(max-width: 768px) 715px, 1300px"
+    />
+    <a
+      href="https://iq.ul.com/ul/cert.aspx?ULID=104745228"
+      target="_blank"
+      class="btn-certificado-ul"
+    >
+      UL: MH67689
+    </a>
   </div>
+</div>
 
   <!-- CONTENIDO PRINCIPAL -->
   <div class="relative">
