@@ -48,20 +48,12 @@ export const HOME_SEGMENTS = [
 
 export const HOME_SERVICES = [
   {
-    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/FLEXO-1.jpg',
-    text: 'Flexografía'
-  },
-  {
     src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/MG_9975-1-scaled.jpg',
     text: 'Nameplates'
   },
   {
     src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/DSC_2273-1.jpg',
-    text: 'Digital'
-  },
-  {
-    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-1127848486-1-scaled.jpg',
-    text: 'Offset'
+    text: 'Etiquetas'
   },
   {
     src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/Gravoply.jpg',
