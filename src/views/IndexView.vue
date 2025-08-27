@@ -47,7 +47,7 @@
         <img
           loading="lazy"
           class="w-full aspect-square"
-          src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/lv_0_20240819142526.gif"
+          src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Etiqueta-2.jpg"
         />
       </div>
 
