@@ -46,7 +46,7 @@
       <div class="sm:col-span-24 content-center lg:row-span-3 mt">
         <img
           loading="lazy"
-          class="w-full aspect-square"
+          class="w-full h-auto object-contain"
           src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Etiqueta-2.jpg"
         />
       </div>
