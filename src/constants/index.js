@@ -11,27 +11,27 @@ export const HOME_SEGMENTS = [
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-03.svg',
-    text: 'ALIMENTOS Y BEBIDAS',
+    text: 'ALIMENTICIO',
     href: '/segments/alimentos-y-bebidas'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-04.svg',
-    text: 'VINOS Y LICORES',
+    text: 'ANIMALES',
     href: '/segments/vinos-y-licores'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-05.svg',
-    text: 'SALUD Y BELLEZA',
+    text: 'BELLEZA',
     href: '/segments/salud-y-belleza'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-06.svg',
-    text: 'HOGAR',
+    text: 'LIMPIEZA Y HOGAR',
     href: '/segments/hogar'
   },
   {
     icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-07.svg',
-    text: 'FARMACÉUTICA',
+    text: 'FARMACÉUTICA Y SUPLEMENTOS',
     href: '/segments/farmaceutica'
   },
   {
