@@ -4,8 +4,8 @@ const INDUSTRIAL = {
     text: 'Seguridad, fuerza y resistencia.'
   },
   title: 'INDUSTRIAL',
-const data = reactive({
-  infoList: {
+infoList: {
+    showBar: true,
     paragraph:
       "En Fortelite tenemos soluciones robustas para entornos exigentes: etiquetas con alta resistencia térmica, química y mecánica. Adhesivos de alto y bajo tack para opciones de aplicaciones permanentes o removibles y materiales con adaptabilidad dimensional.",
     list: [
