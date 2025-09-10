@@ -7,6 +7,7 @@ const AUTOMOTIVE = {
   infoList: {
     showBar: true,
     list: [
+      "Trabajamos con materiales de alta durabilidad térmica y química, resistentes a aceites, combustibles y abrasión. Adhesivos de alto desempeño para superficies metálicas, plásticas o rugosas, garantizando trazabilidad, resistencia y seguridad en condiciones extremas.",
       "Neumáticos",
       "Motores",
       "Identificación de componentes",
