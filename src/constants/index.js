@@ -1,6 +1,6 @@
 export const HOME_SEGMENTS = [
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-01-1.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/IND2.jpg',
     text: 'INDUSTRIAL',
     href: '/segments/industrial'
   },
