@@ -3,7 +3,7 @@ const PHARMACEUTICAL = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-472659440-scaled.jpg',
     text: 'Potencializa el valor de tus productos.'
   },
-  title: 'FARMACEUTICA',
+  title: 'FARMACEUTICO Y SUPLEMENTOS',
   infoList: {
     list: [
       "Contamos etiquetas con certificación y materiales conformes con normativas FDA y EU, ideales para trazabilidad, inviolabilidad y legibilidad prolongada. Adhesivos especializados para frascos, blísteres y superficies de bajo tamaño o curvatura. Materiales libres de benzofenonas.",
