@@ -3,8 +3,17 @@ const FOOD_AND_DRINKS = {
       image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/file-1.jpg',
       text: 'Haz de tu etiqueta un vendedor silencioso.'
     },
-    title: 'ALIMENTOS Y BEBIDAS',
+    title: 'ALIMENTICIO',
     segmentImages: [
+        {
+      text: "Ofrecemos soluciones autoadhesivas certificadas para el sector alimenticio, con adhesivos de alto rendimiento y certificados:
+Empaque:
+Primario
+Secundario
+Terciario
+Ideales para superficies frías, húmedas o congeladas. Resistentes a grasa, humedad, cambios bruscos de temperatura y abrasión, para conservar la legibilidad y seguridad del producto, mejorando también la impresión del producto en anaquel. *Materiales de grado alimenticio
+.",
+    },
       {
         columns: 3,
         images: [
