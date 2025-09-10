@@ -6,6 +6,7 @@ const PHARMACEUTICAL = {
   title: 'FARMACEUTICA',
   infoList: {
     list: [
+      "Contamos etiquetas con certificación y materiales conformes con normativas FDA y EU, ideales para trazabilidad, inviolabilidad y legibilidad prolongada. Adhesivos especializados para frascos, blísteres y superficies de bajo tamaño o curvatura. Materiales libres de benzofenonas.",
       "Medicamentos",
       "Vacunas",
       "Bioterapias",
