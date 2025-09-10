@@ -15,7 +15,7 @@ export const HOME_SEGMENTS = [
     href: '/segments/alimentos-y-bebidas'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ANI2.png',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ANI22.png',
     text: 'ANIMALES',
     href: '/segments/vinos-y-licores'
   },
