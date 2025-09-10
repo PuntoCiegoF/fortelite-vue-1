@@ -6,8 +6,8 @@ const INDUSTRIAL = {
   title: 'INDUSTRIAL',
   infoList: {
     showBar: true,
+    paragraph: "En Fortelite tenemos soluciones robustas para entornos exigentes: etiquetas con alta resistencia térmica, química y mecánica. Adhesivos de alto y bajo tack para opciones de aplicaciones permanentes o removibles y materiales con adaptabilidad dimensional.",
     list: [
-      "En Fortelite tenemos soluciones robustas para entornos exigentes: etiquetas con alta resistencia térmica, química y mecánica. Adhesivos de alto y bajo tack para opciones de aplicaciones permanentes o removibles y materiales con adaptabilidad dimensional.",
       "Aeroespacial",
       "Químicos y petroquímicos",
       "Electrónica y tecnología",
