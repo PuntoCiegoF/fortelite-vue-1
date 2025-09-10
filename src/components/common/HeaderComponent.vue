@@ -101,16 +101,16 @@ const navigationList = [
 ]
 
 const segments = [
-  {text: "ALIMENTOS Y BEBIDAS", to: "/segments/alimentos-y-bebidas"},
-  { text: "INDUSTRIAL", to: "/segments/industrial" },
-  {text: "AUTOMOTRIZ", to: "/segments/automotriz"},
-  {text: "VINOS Y LICORES", to: "/segments/vinos-y-licores"},
-  {text: "SALUD Y BELLEZA", to: "/segments/salud-y-belleza"},
-  {text: "HOGAR", to: "/segments/hogar"},
-  {text: "FARMACEUTICA", to: "/segments/farmaceutica"},
+  {text: "INDUSTRIAL", to: "/segments/industrial" },
+  { text: "AUTOMOTRIZ", to: "/segments/automotriz"},
+  {text: "LOGISTICA", to: "/segments/logistica"}, 
+  {text: "FARMACEUTICO Y SUPLEMENTOS", to: "/segments/farmaceutica"},
+  {text: "ALIMENTICIO", to: "/segments/alimentos-y-bebidas"},
+  {text: "BELLEZA", to: "/segments/salud-y-belleza"},
+  {text: "LIMPIEZA Y HOGAR", to: "/segments/hogar"},
+  {text: "VETERINARIA / MASCOTAS", to: "/segments/vinos-y-licores"},
   {text: "ENTRETENIMIENTO", to: "/segments/entretenimiento"},
-  {text: "LOGISTICA", to: "/segments/logistica"},
-]
+] 
 
 function toggleMenu() {
   menuOpen.value = !menuOpen.value
