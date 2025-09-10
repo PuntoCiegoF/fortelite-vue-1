@@ -1,46 +1,46 @@
 export const HOME_SEGMENTS = [
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/IND2.jpg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/IND2.PNG',
     text: 'INDUSTRIAL',
     href: '/segments/industrial'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-02-1.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/AUT2.png',
     text: 'AUTOMOTRIZ',
     href: '/segments/automotriz'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-03.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ALI2.png',
     text: 'ALIMENTICIO',
     href: '/segments/alimentos-y-bebidas'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-04.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ANI2.png',
     text: 'ANIMALES',
     href: '/segments/vinos-y-licores'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-05.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/BEL2.png',
     text: 'BELLEZA',
     href: '/segments/salud-y-belleza'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-06.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/HOG2.png',
     text: 'LIMPIEZA Y HOGAR',
     href: '/segments/hogar'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-07.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/FAR2.png',
     text: 'FARMACÉUTICA Y SUPLEMENTOS',
     href: '/segments/farmaceutica'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-08.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ENT2.png',
     text: 'ENTRETENIMIENTO',
     href: '/segments/entretenimiento'
   },
   {
-    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Iconos-Segmentos-Fortelite-09.svg',
+    icon: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/LOG2.png',
     text: 'LOGISTICA',
     href: '/segments/logistica'
   },
