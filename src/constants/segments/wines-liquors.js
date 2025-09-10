@@ -3,7 +3,7 @@ const WINES_LIQUORS = {
     image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-1495400812-scaled.jpg',
     text: 'Eleva el valor de tu marca.'
   },
-  title: 'VINOS Y LICORES',
+  title: 'PAGINA EN MANTENIMIENTO, SIGUE DISFRUTANDO DE NUESTROS OTROS SEGMENTOS',
   segmentImages: [
     {
       columns: 2,
