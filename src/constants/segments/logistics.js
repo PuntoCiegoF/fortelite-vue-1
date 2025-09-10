@@ -7,6 +7,7 @@ const LOGISTICS = {
   infoList: {
     showBar: true,
     list: [
+      "Ofrecemos etiquetas con adhesivos de secado rápido y excelente anclaje en carton, stretch film o polietileno. Ideales para operaciones de alta velocidad, trazabilidad en tiempo real y lectura óptima en ambientes variables.",
       "Códigos de barras e identificación",
       "Embalaje y etiquetado de productos",
       "Etiquetas para almacenamiento y organización",
