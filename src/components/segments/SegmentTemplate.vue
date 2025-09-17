@@ -51,7 +51,32 @@
       </div>
     </div>
     <!-- ======= /BLOQUE DE IMÁGENES + PÁRRAFOS ======= -->
+<div v-if="props.segment.infoList" class="relative pt-12">
+  <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
+  <div class="segment__list mx-auto">
 
+    <!-- Párrafo -->
+    <p v-if="props.segment.infoList.intro" class="text-primary text-3xl m-3 leading-relaxed">
+      {{ props.segment.infoList.intro }}
+    </p>
+
+    <!-- Título "Aplicaciones:" -->
+    <p v-if="props.segment.infoList.listTitle" class="text-primary text-2xl font-semibold m-3 mt-6">
+      {{ props.segment.infoList.listTitle }}
+    </p>
+
+    <!-- Lista con viñetas -->
+    <ul
+      v-if="props.segment.infoList.list && props.segment.infoList.list.length"
+      class="text-primary text-3xl list-outside list-disc m-3"
+    >
+      <li v-for="(text, i) in props.segment.infoList.list" :key="i" class="mb-1">
+        {{ text }}
+      </li>
+    </ul>
+
+  </div>
+</div>
     <!-- ¡OJO!: ya NO ponemos el bloque "Párrafo (antes de Acabados)". -->
 
     <div v-if="props.segment.bannerBottom" class="pt-20">
