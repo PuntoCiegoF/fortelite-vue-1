@@ -111,13 +111,13 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
+import { defineProps, computed } from 'vue'
 import BarComponent from '../common/BarComponent.vue'
 
 const props = defineProps({
   segment: {
     type: Object,
-    default() {
+    default () {
       return {
         title: 'Industrial',
         segmentImages: [],
@@ -125,6 +125,20 @@ const props = defineProps({
       }
     }
   }
+})
+
+/**
+ * Toma el texto del primer objeto en segment.segmentImages
+ * que sea { type: 'paragraph', text: '...' }.
+ * (Si en el futuro agregas segment.segmentIntro, también lo muestra.)
+ */
+const segmentParagraph = computed(() => {
+  const s = props.segment || {}
+  if (s.segmentIntro) return s.segmentIntro
+  const fromImages = Array.isArray(s.segmentImages)
+    ? s.segmentImages.find(g => g && g.type === 'paragraph' && g.text)
+    : null
+  return fromImages ? fromImages.text : ''
 })
 </script>
 
