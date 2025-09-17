@@ -8,20 +8,21 @@
         </div>
       </div>
     </div>
+
     <div class="relative">
       <BarComponent position="top-left" height="20" width="320" inverted />
       <h2 class="text-center text-sky-300 text-6xl font-semibold pt-10 pb-11 text-seg">SEGMENTOS</h2>
     </div>
+
     <div class="bg-primary text-white pt-10 pb-11">
       <h1 class="text-center text-6xl text-ayb">{{ props.segment.title }}</h1>
     </div>
-    <div
-      v-if="props.segment.segmentImages"      
-    >
+
+    <div v-if="props.segment.segmentImages">
       <div
         v-for="(group, groupIndex) in props.segment.segmentImages"
         :key="`group_${groupIndex}`"
-        class="segment__images grid"  
+        class="segment__images grid"
         :style="`--columns: ${group.columns}`"
       >
         <div
@@ -30,36 +31,45 @@
           class="image__wrapper relative"
         >
           <img class="w-full" :src="image.image" loading="lazy">
-          <span class="image__text absolute text-white text-2xl font-semibold z-20">{{ image.text }}</span>  
+          <span class="image__text absolute text-white text-2xl font-semibold z-20">{{ image.text }}</span>
         </div>
       </div>
     </div>
-    <div
-      v-if="props.segment.infoList"
-      class="relative pt-20"
-    >
+
+    <!-- ======= INFO LIST (intro + lista) ======= -->
+    <div v-if="props.segment.infoList" class="relative pt-20">
       <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
-      <div      
-        class="segment__list mx-auto"
-      >
-        <ul class="text-primary text-3xl list-outside list-disc m-3">
+      <div class="segment__list mx-auto">
+        <!-- PÁRRAFO (primer punto, sin viñeta) -->
+        <p
+          v-if="props.segment.infoList.intro"
+          class="text-primary text-3xl m-3 leading-relaxed"
+        >
+          {{ props.segment.infoList.intro }}
+        </p>
+
+        <!-- LISTA (los demás puntos con viñeta) -->
+        <ul
+          v-if="props.segment.infoList.list && props.segment.infoList.list.length"
+          class="text-primary text-3xl list-outside list-disc m-3"
+        >
           <li
             v-for="(item, itemIndex) in props.segment.infoList.list"
             :key="`itemNo_${itemIndex}`"
+            class="mb-1"
           >
             {{ item }}
           </li>
         </ul>
       </div>
     </div>
-    <div
-      v-if="props.segment.bannerBottom"
-      class="pt-20"
-    >
+    <!-- ======= /INFO LIST ======= -->
+
+    <div v-if="props.segment.bannerBottom" class="pt-20">
       <div
         v-for="(group, groupIndex) in props.segment.bannerBottom"
         :key="`groupBottom_${groupIndex}`"
-        class="segment__images grid"  
+        class="segment__images grid"
         :style="`--columns: ${group.columns}`"
       >
         <div
@@ -67,14 +77,12 @@
           :key="`imagenBottomNo_${imageIndex}`"
           class="banner-bottom relative"
         >
-          <img class="w-full" :src="image" loading="lazy">     
+          <img class="w-full" :src="image" loading="lazy">
         </div>
       </div>
     </div>
-    <div
-      v-if="props.segment.finishes"
-      class="segment__finishes relative pt-20"
-    >
+
+    <div v-if="props.segment.finishes" class="segment__finishes relative pt-20">
       <BarComponent v-if="props.segment.finishes.showBar" height="280" width="" />
       <h2 class="text-center text-5xl text-primary font-semibold">Acabados</h2>
       <div class="flex flex-wrap justify-center gap-y-16 mt-16">
@@ -83,46 +91,35 @@
           class="finishes__image-wrapper relative flex flex-wrap segment-img gap-6 items-center"
           :key="`finish_${finishIndex}`"
         >
-
-         
           <img class="w-9/12 aspect-ratio-square rounded-full" :src="finish.image" loading="lazy" >
-          
           <div class="flex justify between">
-
-        <span class="d-block finish__text text-sky-300 text-2xl font-semibold text-acb">{{ finish.text }}</span>
-
+            <span class="d-block finish__text text-sky-300 text-2xl font-semibold text-acb">{{ finish.text }}</span>
+          </div>
         </div>
-
-          
-        </div>
-
-        
       </div>
     </div>
 
-
   </div>
 </template>
+
 <script setup>
 import { defineProps } from 'vue';
 import BarComponent from '../common/BarComponent.vue';
+
 const props = defineProps({
   segment: {
     type: Object,
     default () {
       return {
         title: "Industrial",
-        segmentImages: [
-
-        ],
-        finishes: [
-
-        ]
+        segmentImages: [],
+        finishes: []
       }
     },
   }
 });
 </script>
+
 <style lang="scss" scoped>
 .segment__images {
   grid-template-columns: repeat(var(--columns), 1fr);
@@ -130,15 +127,14 @@ const props = defineProps({
 
 @media (max-width: 768px) {
   .segment__images {
-    grid-template-columns: repeat(2, 1fr); /* Cambia 2 por el número de columnas que quieras en móviles */
-    gap: 10px; /* Opcional: reduce el espacio entre las imágenes */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
-  
   .segment__images img {
-    width: 100%; /* Asegura que las imágenes ocupen todo el ancho de la columna */
-    height: 150px; /* Ajusta la altura de las imágenes */
-    object-fit: cover; /* Recorta la imagen para llenar el contenedor si es necesario */
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
   }
 
   .text-acb{
@@ -213,7 +209,7 @@ const props = defineProps({
     width: calc(100% / 5);
 
     @media (max-width: 768px) {
-      flex-basis: calc(50%); /* Aquí estableces que en móviles cada elemento ocupe el 50% */
+      flex-basis: calc(50%);
       width: 100%;
       justify-content: center;
     }
@@ -221,6 +217,13 @@ const props = defineProps({
 }
 
 .banner__text {
+  text-shadow: 0 0 1.5px black;
+}
+
+.banner__container {
+  height: 45vh;
+}
+</style>
   text-shadow: 0 0 1.5px black;
 }
 
