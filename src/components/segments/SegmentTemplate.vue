@@ -37,32 +37,36 @@
     </div>
 
     <!-- ======= INFO LIST (intro + lista) ======= -->
-    <div v-if="props.segment.infoList" class="relative pt-20">
-      <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
-      <div class="segment__list mx-auto">
-        <!-- PÁRRAFO (primer punto, sin viñeta) -->
-        <p
-          v-if="props.segment.infoList.intro"
-          class="text-primary text-3xl m-3 leading-relaxed"
-        >
-          {{ props.segment.infoList.intro }}
-        </p>
+    <div
+  v-if="props.segment.infoList"
+  class="relative pt-20"
+>
+  <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
+  <div class="segment__list mx-auto">
 
-        <!-- LISTA (los demás puntos con viñeta) -->
-        <ul
-          v-if="props.segment.infoList.list && props.segment.infoList.list.length"
-          class="text-primary text-3xl list-outside list-disc m-3"
-        >
-          <li
-            v-for="(item, itemIndex) in props.segment.infoList.list"
-            :key="`itemNo_${itemIndex}`"
-            class="mb-1"
-          >
-            {{ item }}
-          </li>
-        </ul>
-      </div>
-    </div>
+    <!-- Párrafo (primer punto, sin viñeta) -->
+    <p
+      v-if="props.segment.infoList.intro"
+      class="text-primary text-3xl m-3 leading-relaxed"
+    >
+      {{ props.segment.infoList.intro }}
+    </p>
+
+    <!-- Lista (los demás puntos con viñeta) -->
+    <ul
+      v-if="props.segment.infoList.list && props.segment.infoList.list.length"
+      class="text-primary text-3xl list-outside list-disc m-3"
+    >
+      <li
+        v-for="(item, itemIndex) in props.segment.infoList.list"
+        :key="`itemNo_${itemIndex}`"
+        class="mb-1"
+      >
+        {{ item }}
+      </li>
+    </ul>
+  </div>
+</div>
     <!-- ======= /INFO LIST ======= -->
 
     <div v-if="props.segment.bannerBottom" class="pt-20">
