@@ -1,7 +1,7 @@
 <template>
   <div class="pb-20">
     <div class="banner__container relative overflow-hidden">
-      <img class="w-full object-cover h-full" loading="lazy" :src="props.segment.bannerTop.image">
+      <img class="w-full object-cover h-full" loading="lazy" :src="props.segment.bannerTop.image" />
       <div class="absolute inset-0 flex items-center justify-center">
         <div class="banner__text text-white md:text-3xl lg:text-5xl font-bold bg-black bg-opacity-30 p-1 rounded">
           {{ props.segment.bannerTop.text }}
@@ -30,44 +30,36 @@
           :key="`imagenNo_${imageIndex}`"
           class="image__wrapper relative"
         >
-          <img class="w-full" :src="image.image" loading="lazy">
+          <img class="w-full" :src="image.image" loading="lazy" />
           <span class="image__text absolute text-white text-2xl font-semibold z-20">{{ image.text }}</span>
         </div>
       </div>
     </div>
 
-    <!-- ======= INFO LIST (intro + lista) ======= -->
-    <div
-  v-if="props.segment.infoList"
-  class="relative pt-20"
->
-  <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
-  <div class="segment__list mx-auto">
+    <!-- INFO LIST -->
+    <div v-if="props.segment.infoList" class="relative pt-20">
+      <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
+      <div class="segment__list mx-auto">
+        <!-- Párrafo suelto -->
+        <p v-if="props.segment.infoList.intro" class="text-primary text-3xl m-3 leading-relaxed">
+          {{ props.segment.infoList.intro }}
+        </p>
 
-    <!-- Párrafo (primer punto, sin viñeta) -->
-    <p
-      v-if="props.segment.infoList.intro"
-      class="text-primary text-3xl m-3 leading-relaxed"
-    >
-      {{ props.segment.infoList.intro }}
-    </p>
-
-    <!-- Lista (los demás puntos con viñeta) -->
-    <ul
-      v-if="props.segment.infoList.list && props.segment.infoList.list.length"
-      class="text-primary text-3xl list-outside list-disc m-3"
-    >
-      <li
-        v-for="(item, itemIndex) in props.segment.infoList.list"
-        :key="`itemNo_${itemIndex}`"
-        class="mb-1"
-      >
-        {{ item }}
-      </li>
-    </ul>
-  </div>
-</div>
-    <!-- ======= /INFO LIST ======= -->
+        <!-- Lista -->
+        <ul
+          v-if="props.segment.infoList.list && props.segment.infoList.list.length"
+          class="text-primary text-3xl list-outside list-disc m-3"
+        >
+          <li
+            v-for="(item, itemIndex) in props.segment.infoList.list"
+            :key="`itemNo_${itemIndex}`"
+            class="mb-1"
+          >
+            {{ item }}
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <div v-if="props.segment.bannerBottom" class="pt-20">
       <div
@@ -81,7 +73,7 @@
           :key="`imagenBottomNo_${imageIndex}`"
           class="banner-bottom relative"
         >
-          <img class="w-full" :src="image" loading="lazy">
+          <img class="w-full" :src="image" loading="lazy" />
         </div>
       </div>
     </div>
@@ -92,36 +84,35 @@
       <div class="flex flex-wrap justify-center gap-y-16 mt-16">
         <div
           v-for="(finish, finishIndex) in props.segment.finishes.list"
-          class="finishes__image-wrapper relative flex flex-wrap segment-img gap-6 items-center"
           :key="`finish_${finishIndex}`"
+          class="finishes__image-wrapper relative flex flex-wrap segment-img gap-6 items-center"
         >
-          <img class="w-9/12 aspect-ratio-square rounded-full" :src="finish.image" loading="lazy" >
+          <img class="w-9/12 aspect-ratio-square rounded-full" :src="finish.image" loading="lazy" />
           <div class="flex justify between">
             <span class="d-block finish__text text-sky-300 text-2xl font-semibold text-acb">{{ finish.text }}</span>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
-import BarComponent from '../common/BarComponent.vue';
+import { defineProps } from 'vue'
+import BarComponent from '../common/BarComponent.vue'
 
 const props = defineProps({
   segment: {
     type: Object,
-    default () {
+    default() {
       return {
-        title: "Industrial",
+        title: 'Industrial',
         segmentImages: [],
         finishes: []
       }
-    },
+    }
   }
-});
+})
 </script>
 
 <style lang="scss" scoped>
@@ -141,15 +132,15 @@ const props = defineProps({
     object-fit: cover;
   }
 
-  .text-acb{
+  .text-acb {
     font-size: 80%;
   }
 
-  .text-seg{
+  .text-seg {
     font-size: 250%;
   }
 
-  .text-ayb{
+  .text-ayb {
     font-size: 150%;
   }
 }
@@ -160,7 +151,7 @@ const props = defineProps({
   }
 
   &::after {
-    content: "";
+    content: '';
     z-index: 1;
     position: absolute;
     inset: 0;
@@ -190,7 +181,7 @@ const props = defineProps({
   }
 }
 
-.segment-img{
+.segment-img {
   flex-direction: column;
 }
 
@@ -221,13 +212,6 @@ const props = defineProps({
 }
 
 .banner__text {
-  text-shadow: 0 0 1.5px black;
-}
-
-.banner__container {
-  height: 45vh;
-}
-</style>
   text-shadow: 0 0 1.5px black;
 }
 
