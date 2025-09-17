@@ -4,6 +4,15 @@ const HOME = {
     text: 'Potencializa el valor de tus productos.'
   },
   title: 'LIMPIEZA Y HOGAR',
+  infoList: {
+    showBar: true,
+    intro: `En Fortelite fabricamos etiquetas resistentes a la humedad, productos químicos y migración de tinta. Adhesivos especializados para envases plásticos de geometría variable y acabados diseñados para conservar estética y legibilidad en condiciones de uso intensivo.`,
+    listTitle: 'Beneficios:',
+    list: [
+      'Adaptabilidad a geometría variable',
+    ],
+  },
+
   segmentImages: [
     {
       columns: 3,
