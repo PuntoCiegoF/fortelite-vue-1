@@ -5,18 +5,23 @@ const PHARMACEUTICAL = {
   },
   title: 'FARMACEUTICO Y SUPLEMENTOS',
   infoList: {
-    list: [
-      "Contamos etiquetas con certificación y materiales conformes con normativas FDA y EU, ideales para trazabilidad, inviolabilidad y legibilidad prolongada. Adhesivos especializados para frascos, blísteres y superficies de bajo tamaño o curvatura. Materiales libres de benzofenonas.",
-      "Medicamentos",
-      "Vacunas",
-      "Bioterapias",
-      "Equipo médico",
-      "Advertencias",
-      "Productos veterinarios",
-      "Desinfectantes",
-      "Sellos de seguridad",
-    ],
-  },
+  showBar: true,
+  // Párrafo (sin viñeta)
+  intro: `Contamos etiquetas con certificación y materiales conformes con normativas FDA y EU, ideales para trazabilidad, inviolabilidad y legibilidad prolongada. Adhesivos especializados para frascos, blísteres y superficies de bajo tamaño o curvatura. Materiales libres de benzofenonas.`,
+  // Título sobre la lista
+  listTitle: 'Aplicaciones:',
+  // Viñetas
+  list: [
+    'Medicamentos',
+    'Suplementos y vitaminas',
+    'Vacunas',
+    'Equipo médico',
+    'Desinfectantes',
+    'Bioterapias',
+    'Productos veterinarios',
+    'Sellos de seguridad',
+  ],
+},
   bannerBottom: [
     {
       columns: 3,
