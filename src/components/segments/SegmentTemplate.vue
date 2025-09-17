@@ -19,23 +19,36 @@
     </div>
 
     <div v-if="props.segment.segmentImages">
-      <div
-        v-for="(group, groupIndex) in props.segment.segmentImages"
-        :key="`group_${groupIndex}`"
-        class="segment__images grid"
-        :style="`--columns: ${group.columns}`"
-      >
-        <div
-          v-for="(image, imageIndex) in group.images"
-          :key="`imagenNo_${imageIndex}`"
-          class="image__wrapper relative"
-        >
-          <img class="w-full" :src="image.image" loading="lazy" />
-          <span class="image__text absolute text-white text-2xl font-semibold z-20">{{ image.text }}</span>
-        </div>
-      </div>
+  <div
+    v-for="(group, groupIndex) in props.segment.segmentImages"
+    :key="`group_${groupIndex}`"
+  >
+    <!-- Si es un párrafo -->
+    <div v-if="group.type === 'paragraph'" class="segment__list mx-auto my-8">
+      <p class="text-primary text-2xl md:text-3xl leading-relaxed m-3">
+        {{ group.text }}
+      </p>
     </div>
 
+    <!-- Si es un grupo de imágenes -->
+    <div
+      v-else
+      class="segment__images grid"
+      :style="`--columns: ${group.columns}`"
+    >
+      <div
+        v-for="(image, imageIndex) in group.images"
+        :key="`imagenNo_${imageIndex}`"
+        class="image__wrapper relative"
+      >
+        <img class="w-full" :src="image.image" loading="lazy" />
+        <span class="image__text absolute text-white text-2xl font-semibold z-20">
+          {{ image.text }}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- INFO LIST -->
     <div v-if="props.segment.infoList" class="relative pt-20">
       <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
