@@ -90,7 +90,11 @@
         </div>
       </div>
     </div>
-
+    <div v-if="segmentParagraph" class="segment__list mx-auto my-8">
+  <p class="text-primary text-2xl md:text-3xl leading-relaxed m-3">
+    {{ segmentParagraph }}
+  </p>
+</div>
     <div v-if="props.segment.finishes" class="segment__finishes relative pt-20">
       <BarComponent v-if="props.segment.finishes.showBar" height="280" width="" />
       <h2 class="text-center text-5xl text-primary font-semibold">Acabados</h2>
