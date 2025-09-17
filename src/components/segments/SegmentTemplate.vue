@@ -139,32 +139,40 @@ const props = defineProps({
 }
 
 .image__wrapper {
+  position: relative;
+
   img {
     height: 380px;
+    display: block;
+    width: 100%;
   }
 
+  /* Overlay SIEMPRE visible (oscuro) */
   &::after {
     content: '';
-    z-index: 1;
     position: absolute;
     inset: 0;
-    background-color: #00000073;
-    opacity: 0;
-    transition: opacity 500ms ease;
+    z-index: 1;
+    background: #000;          /* negro */
+    opacity: 0.35;             /* oscuridad base */
+    transition: opacity 300ms ease; /* animación suave */
+    pointer-events: none;      /* no bloquea clicks */
   }
 
+  /* Texto por encima del overlay */
   .image__text {
+    position: absolute;
     top: 50%;
     left: 0;
     right: 0;
     text-align: center;
     transform: translateY(-50%);
+    z-index: 2;                /* arriba del ::after */
   }
 
-  &:hover {
-    &::after {
-      opacity: 1;
-    }
+  /* Al pasar el mouse: MÁS oscuro */
+  &:hover::after {
+    opacity: 0.65;             /* ajusta a tu gusto (0–1) */
   }
 }
 
