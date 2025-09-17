@@ -90,8 +90,8 @@
         </div>
       </div>
     </div>
-    <div v-if="segmentParagraph" class="segment__list mx-auto my-8">
-  <p class="text-primary text-2xl md:text-3xl leading-relaxed m-3">
+        <div v-if="segmentParagraph" class="segment__intro mx-auto">
+  <p class="intro-paragraph text-primary">
     {{ segmentParagraph }}
   </p>
 </div>
@@ -248,5 +248,24 @@ const segmentParagraph = computed(() => {
 
 .banner__container {
   height: 45vh;
+}
+  /* Contenedor con el mismo ancho que las listas */
+.segment__intro {
+  width: min(90%, 940px);
+}
+
+/* Estilo del párrafo introductorio */
+.intro-paragraph {
+  font-size: clamp(18px, 2.1vw, 24px); /* 18px móvil → 24px desktop */
+  line-height: 1.65;
+  text-align: justify;
+  margin: 16px 12px 8px;
+}
+
+/* Ajuste extra para móviles muy pequeños */
+@media (max-width: 400px) {
+  .intro-paragraph {
+    font-size: 16px;
+  }
 }
 </style>
