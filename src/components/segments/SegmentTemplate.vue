@@ -18,61 +18,41 @@
       <h1 class="text-center text-6xl text-ayb">{{ props.segment.title }}</h1>
     </div>
 
+    <!-- ======= BLOQUE DE IMÁGENES + PÁRRAFOS ======= -->
     <div v-if="props.segment.segmentImages">
-  <div
-    v-for="(group, groupIndex) in props.segment.segmentImages"
-    :key="`group_${groupIndex}`"
-  >
-    <!-- Si es un párrafo -->
-    <div v-if="group.type === 'paragraph'" class="segment__list mx-auto my-8">
-      <p class="text-primary text-2xl md:text-3xl leading-relaxed m-3">
-        {{ group.text }}
-      </p>
-    </div>
-
-    <!-- Si es un grupo de imágenes -->
-    <div
-      v-else
-      class="segment__images grid"
-      :style="`--columns: ${group.columns}`"
-    >
       <div
-        v-for="(image, imageIndex) in group.images"
-        :key="`imagenNo_${imageIndex}`"
-        class="image__wrapper relative"
+        v-for="(group, groupIndex) in props.segment.segmentImages"
+        :key="`group_${groupIndex}`"
       >
-        <img class="w-full" :src="image.image" loading="lazy" />
-        <span class="image__text absolute text-white text-2xl font-semibold z-20">
-          {{ image.text }}
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-    <!-- INFO LIST -->
-    <div v-if="props.segment.infoList" class="relative pt-20">
-      <BarComponent v-if="props.segment.infoList.showBar" height="280" width="20" />
-      <div class="segment__list mx-auto">
-        <!-- Párrafo suelto -->
-        <p v-if="props.segment.infoList.intro" class="text-primary text-3xl m-3 leading-relaxed">
-          {{ props.segment.infoList.intro }}
-        </p>
+        <!-- Párrafo (solo aquí) -->
+        <div v-if="group.type === 'paragraph'" class="segment__intro mx-auto">
+          <p class="intro-paragraph text-primary">
+            {{ group.text }}
+          </p>
+        </div>
 
-        <!-- Lista -->
-        <ul
-          v-if="props.segment.infoList.list && props.segment.infoList.list.length"
-          class="text-primary text-3xl list-outside list-disc m-3"
+        <!-- Grupo de imágenes -->
+        <div
+          v-else
+          class="segment__images grid"
+          :style="`--columns: ${group.columns}`"
         >
-          <li
-            v-for="(item, itemIndex) in props.segment.infoList.list"
-            :key="`itemNo_${itemIndex}`"
-            class="mb-1"
+          <div
+            v-for="(image, imageIndex) in group.images"
+            :key="`imagenNo_${imageIndex}`"
+            class="image__wrapper relative"
           >
-            {{ item }}
-          </li>
-        </ul>
+            <img class="w-full" :src="image.image" loading="lazy" />
+            <span class="image__text absolute text-white text-2xl font-semibold z-20">
+              {{ image.text }}
+            </span>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- ======= /BLOQUE DE IMÁGENES + PÁRRAFOS ======= -->
+
+    <!-- ¡OJO!: ya NO ponemos el bloque "Párrafo (antes de Acabados)". -->
 
     <div v-if="props.segment.bannerBottom" class="pt-20">
       <div
@@ -90,11 +70,7 @@
         </div>
       </div>
     </div>
-        <div v-if="segmentParagraph" class="segment__intro mx-auto">
-  <p class="intro-paragraph text-primary">
-    {{ segmentParagraph }}
-  </p>
-</div>
+
     <div v-if="props.segment.finishes" class="segment__finishes relative pt-20">
       <BarComponent v-if="props.segment.finishes.showBar" height="280" width="" />
       <h2 class="text-center text-5xl text-primary font-semibold">Acabados</h2>
@@ -115,13 +91,13 @@
 </template>
 
 <script setup>
-import { defineProps, computed } from 'vue'
+import { defineProps } from 'vue'
 import BarComponent from '../common/BarComponent.vue'
 
 const props = defineProps({
   segment: {
     type: Object,
-    default () {
+    default() {
       return {
         title: 'Industrial',
         segmentImages: [],
@@ -129,20 +105,6 @@ const props = defineProps({
       }
     }
   }
-})
-
-/**
- * Toma el texto del primer objeto en segment.segmentImages
- * que sea { type: 'paragraph', text: '...' }.
- * (Si en el futuro agregas segment.segmentIntro, también lo muestra.)
- */
-const segmentParagraph = computed(() => {
-  const s = props.segment || {}
-  if (s.segmentIntro) return s.segmentIntro
-  const fromImages = Array.isArray(s.segmentImages)
-    ? s.segmentImages.find(g => g && g.type === 'paragraph' && g.text)
-    : null
-  return fromImages ? fromImages.text : ''
 })
 </script>
 
@@ -227,6 +189,27 @@ const segmentParagraph = computed(() => {
   width: min(90%, 940px);
 }
 
+/* === NUEVO: formato del párrafo introductorio === */
+.segment__intro {
+  width: min(90%, 940px);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.intro-paragraph {
+  font-size: clamp(18px, 2.1vw, 24px);
+  line-height: 1.65;
+  text-align: justify;
+  margin: 0 12px;
+}
+
+@media (max-width: 400px) {
+  .intro-paragraph {
+    font-size: 16px;
+  }
+}
+/* === /NUEVO === */
+
 .segment__finishes {
   padding-inline: 60px;
 
@@ -248,24 +231,5 @@ const segmentParagraph = computed(() => {
 
 .banner__container {
   height: 45vh;
-}
-  /* Contenedor con el mismo ancho que las listas */
-.segment__intro {
-  width: min(90%, 940px);
-}
-
-/* Estilo del párrafo introductorio */
-.intro-paragraph {
-  font-size: clamp(18px, 2.1vw, 24px); /* 18px móvil → 24px desktop */
-  line-height: 1.65;
-  text-align: justify;
-  margin: 16px 12px 8px;
-}
-
-/* Ajuste extra para móviles muy pequeños */
-@media (max-width: 400px) {
-  .intro-paragraph {
-    font-size: 16px;
-  }
 }
 </style>
