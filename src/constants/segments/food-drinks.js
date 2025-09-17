@@ -7,10 +7,7 @@ const FOOD_AND_DRINKS = {
     segmentImages: [
     {
       type: "paragraph",
-      text: "Ofrecemos soluciones autoadhesivas certificadas para el sector alimenticio, con adhesivos de alto rendimiento y certificados: 
-          Empaque:Primario, Secundario y Terciario, Ideales para superficies frías, húmedas o congeladas. 
-          Resistentes a grasa, humedad, cambios bruscos de temperatura y abrasión, para conservar la legibilidad y seguridad del producto, mejorando también la impresión del producto en anaquel. 
-          *Materiales de grado alimenticio."
+      text: "Ofrecemos soluciones autoadhesivas certificadas para el sector alimenticio, con adhesivos de alto rendimiento y certificados:Empaque:Primario, Secundario y Terciario, Ideales para superficies frías, húmedas o congeladas. Resistentes a grasa, humedad, cambios bruscos de temperatura y abrasión, para conservar la legibilidad y seguridad del producto, mejorando también la impresión del producto en anaquel. *Materiales de grado alimenticio."
     },
       {
         columns: 3,
