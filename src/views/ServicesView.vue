@@ -120,7 +120,9 @@ import BarComponent from '@/components/common/BarComponent.vue';
     width: calc(100% - 40px); /* Reduce los márgenes laterales en móviles */
     padding: 0 10px;
   }
-
+#certificaciones {
+  scroll-margin-top: 120px; /* ajusta según la altura de tu header */
+}
   h1{
     font-size: 90%;
   }
