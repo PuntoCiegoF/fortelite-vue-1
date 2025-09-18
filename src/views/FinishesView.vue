@@ -27,9 +27,7 @@
             loading="lazy"
           />
           <!-- overlay siempre visible y más oscuro en hover -->
-          <div
-            class="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-opacity duration-300"
-          />
+          <div class="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-opacity duration-300"></div>
           <div class="absolute inset-0 flex items-end p-4 z-10">
             <h3 class="text-white text-2xl font-semibold drop-shadow">
               {{ seg.title }}
@@ -38,7 +36,7 @@
         </article>
       </div>
 
-      <!-- CTA para ver catálogo de acabados o pedir asesoría -->
+      <!-- CTA -->
       <div class="mt-12 flex flex-wrap items-center justify-center gap-4">
         <RouterLink
           to="/contact"
@@ -59,8 +57,6 @@
 
 <script setup>
 // Galería de ejemplos: 1 imagen representativa por segmento.
-// He usado imágenes que ya existen en tu sitio según lo que trabajamos.
-// Si luego quieres cambiar alguna, solo edita la URL o el título.
 const segmentsSamples = [
   {
     title: 'Industrial',
@@ -111,3 +107,5 @@ const segmentsSamples = [
 </script>
 
 <style scoped>
+/* sin estilos extra por ahora */
+</style>
