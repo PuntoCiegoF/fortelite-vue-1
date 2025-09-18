@@ -95,11 +95,11 @@ const mobileDropdownOpen = ref(false)
 const navigationList = [
   { text: "Inicio", to: "/" },
   { text: "Servicios", to: "/services" },
+  { text: "Acabados", to: "/acabados" }, // 👈 NUEVO ítem del menú principal
   { text: "Segmentos", to: "/segments" },
   { text: "Nosotros", to: "/clients" },
   { text: "Contacto", to: "/contact" },
 ]
-
 const segments = [
   {text: "INDUSTRIAL", to: "/segments/industrial" },
   { text: "AUTOMOTRIZ", to: "/segments/automotriz"},
