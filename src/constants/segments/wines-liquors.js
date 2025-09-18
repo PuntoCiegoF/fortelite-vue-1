@@ -7,7 +7,7 @@ const WINES_LIQUORS = {
   },
 
   // Título temporal
-  title: 'ANIMALES',
+  title: 'VETERINARIA Y MASCOTAS',
 
   // Texto arriba de la grilla (dejamos aviso mientras no hay imágenes del segmento)
   segmentImages: [
