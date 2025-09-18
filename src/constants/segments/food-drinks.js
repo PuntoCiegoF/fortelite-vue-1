@@ -5,43 +5,48 @@ const FOOD_AND_DRINKS = {
     },
     title: 'ALIMENTICIO',
     segmentImages: [
-    {
-  type: "paragraph",
-  text: `Ofrecemos soluciones autoadhesivas certificadas para el sector alimenticio, con adhesivos de alto rendimiento y certificados.
-
-Empaque: Primario, Secundario y Terciario.
-Ideales para superficies frías, húmedas o congeladas.
-Resistentes a grasa, humedad y cambios bruscos de temperatura y abrasión, para conservar la legibilidad y seguridad del producto, mejorando también la impresión del producto en anaquel.
-*Materiales de grado alimenticio.`
-},
+  {
+    type: "paragraph",
+    text:
+      "Ofrecemos soluciones autoadhesivas certificadas para el sector alimenticio, con adhesivos de alto rendimiento y certificados:Empaque:Primario, Secundario y Terciario, Ideales para superficies frías, húmedas o congeladas. Resistentes a grasa, humedad, cambios bruscos de temperatura y abrasión, para conservar la legibilidad y seguridad del producto, mejorando también la impresión del producto en anaquel. *Materiales de grado alimenticio.",
+  },
+  {
+    columns: 3,
+    images: [
       {
-        columns: 3,
-        images: [
-          {
-            text: 'Salsas y aderezos',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/alimentos-salsas.jpg'
-          },
-          {
-            text: 'Alimentos congelados',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/alimentos-congelados.png'
-          },
-          {
-            text: 'Lácteos',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/LACTEOS.webp'
-          },
-          {
-            text: 'Carnes',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/CARNES.jpg'
-          },
-          {
-            text: 'Jugos y refrescos',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/il_1588xN.4679353629_g27r.jpg'
-          },
-          {
-            text: 'Aguas',
-            image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/AGUA.jpg'
-          },
-             {
+        text: "Salsas y aderezos",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/alimentos-salsas.jpg",
+      },
+      {
+        text: "Alimentos congelados",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/alimentos-congelados.png",
+      },
+      {
+        text: "Lácteos",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/LACTEOS.webp",
+      },
+      {
+        text: "Carnes",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/CARNES.jpg",
+      },
+      {
+        text: "Jugos y refrescos",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/il_1588xN.4679353629_g27r.jpg",
+      },
+      {
+        text: "Aguas",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/AGUA.jpg",
+      },
+    ],
+  },
+  // NUEVO BLOQUE: 3 imágenes de vinos/licores
+  {
     columns: 3,
     images: [
       {
@@ -62,9 +67,6 @@ Resistentes a grasa, humedad y cambios bruscos de temperatura y abrasión, para 
     ],
   },
 ],
-        ]
-      }
-    ],
     finishes: {
       showBar: true,
       list: [
