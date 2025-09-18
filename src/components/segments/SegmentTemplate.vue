@@ -117,13 +117,13 @@
     </RouterLink>
 
     <RouterLink
-  :to="{ path: '/services', hash: '#certificaciones' }"
-  class="inline-flex items-center justify-center rounded-full border-2 border-primary px-8 py-4 text-primary text-xl font-semibold hover:bg-primary hover:text-white transition"
->
-  Ver certificaciones
-</RouterLink>
+      :to="{ path: '/services', hash: '#certificaciones' }"
+      class="inline-flex items-center justify-center rounded-full border-2 border-primary px-8 py-4 text-primary text-xl font-semibold hover:bg-primary hover:text-white transition"
+    >
+      Ver certificaciones
+    </RouterLink>
   </div>
-</div>
+</div> <!-- 👈 FALTABA este cierre del div raíz -->
 </template>
 
 <script setup>
