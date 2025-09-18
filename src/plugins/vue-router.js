@@ -20,7 +20,18 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior() {
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    }
+    if (to.hash) {
+      // hace scroll suave al elemento con ese id
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+        top: 80, // ajusta según la altura de tu header (80–140)
+      }
+    }
     return { top: 0 }
   },
 })
