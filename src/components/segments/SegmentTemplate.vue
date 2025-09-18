@@ -105,23 +105,25 @@
       </div>
     </div>
 
-    <div v-if="props.segment.finishes" class="segment__finishes relative pt-20">
-      <BarComponent v-if="props.segment.finishes.showBar" height="280" width="" />
-      <h2 class="text-center text-5xl text-primary font-semibold">Acabados</h2>
-      <div class="flex flex-wrap justify-center gap-y-16 mt-16">
-        <div
-          v-for="(finish, finishIndex) in props.segment.finishes.list"
-          :key="`finish_${finishIndex}`"
-          class="finishes__image-wrapper relative flex flex-wrap segment-img gap-6 items-center"
-        >
-          <img class="w-9/12 aspect-ratio-square rounded-full" :src="finish.image" loading="lazy" />
-          <div class="flex justify between">
-            <span class="d-block finish__text text-sky-300 text-2xl font-semibold text-acb">{{ finish.text }}</span>
-          </div>
-        </div>
-      </div>
-    </div>
+   <div class="relative pt-20">
+  <h2 class="text-center text-5xl text-primary font-semibold">¿Qué te gustaría ver?</h2>
+
+  <div class="mt-10 flex flex-wrap items-center justify-center gap-6">
+    <RouterLink
+      to="/acabados"
+      class="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-white text-xl font-semibold hover:bg-secondary transition"
+    >
+      Ver acabados
+    </RouterLink>
+
+    <RouterLink
+  :to="{ path: '/services', hash: '#certificaciones' }"
+  class="inline-flex items-center justify-center rounded-full border-2 border-primary px-8 py-4 text-primary text-xl font-semibold hover:bg-primary hover:text-white transition"
+>
+  Ver certificaciones
+</RouterLink>
   </div>
+</div>
 </template>
 
 <script setup>
