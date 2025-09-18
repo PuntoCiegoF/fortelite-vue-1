@@ -114,15 +114,15 @@ import BarComponent from '@/components/common/BarComponent.vue';
   width: calc(100% - 200px * 2);
   margin-inline: auto;
 }
-
+#certificaciones {
+  scroll-margin-top: 120px; /* ajusta según la altura de tu header */
+}
 @media only screen and (max-width: 768px) {
   .services__container {
     width: calc(100% - 40px); /* Reduce los márgenes laterales en móviles */
     padding: 0 10px;
   }
-#certificaciones {
-  scroll-margin-top: 120px; /* ajusta según la altura de tu header */
-}
+
   h1{
     font-size: 90%;
   }
