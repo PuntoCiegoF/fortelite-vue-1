@@ -66,7 +66,7 @@
           </ul>
         </article>
         <article class="mb-4">
-          <h2 class="text-primary text-3xl font-bold mb-4">CUMPLIMIENTO NORMATIVO</h2>
+         <h2 id="certificaciones" class="text-primary text-3xl font-bold mb-4">CUMPLIMIENTO NORMATIVO</h2>
           <p>
          Experiencia en regularización y cumplimiento normativo en estándares
           </p>
