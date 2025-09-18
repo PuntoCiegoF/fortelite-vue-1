@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from 'vue-router'
 import IndexView from '@/views/IndexView.vue'
-
 import SegmentsView from '@/views/SegmentsView.vue'
+import FinishesView from '@/views/FinishesView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import ContactView from '@/views/ContactView.vue'
 import AboutUsView from '@/views/AboutUsView.vue'
