@@ -243,6 +243,7 @@ const props = defineProps({
   line-height: 1.65;
   text-align: justify;
   margin: 0 12px;
+  white-space: pre-line; /* respeta los saltos de línea del texto */
 }
 
 @media (max-width: 400px) {
