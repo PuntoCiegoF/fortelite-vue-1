@@ -10,6 +10,7 @@ const routes = [
   { path: '/', component: IndexView, meta: { title: 'Inicio' } },
   { path: '/segments', redirect: '/segments/alimentos-y-bebidas', meta: { title: 'Segmentos' } },
   { path: '/segments/:segment_slug', component: SegmentsView, meta: { title: 'Segmentos' } },
+  { path: '/acabados', component: FinishesView, meta: { title: 'Acabados' } },
   { path: '/clients', component: AboutUsView, meta: { title: 'Clientes' } },
   { path: '/services', component: ServicesView, meta: { title: 'Servicios' } },
   { path: '/:catchAll(.*)', redirect: '/', meta: { title: 'Inicio' } },
