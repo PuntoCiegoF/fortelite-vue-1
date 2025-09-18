@@ -116,14 +116,15 @@
       Ver acabados
     </RouterLink>
 
-    <RouterLink
+      <RouterLink
       :to="{ path: '/services', hash: '#certificaciones' }"
       class="inline-flex items-center justify-center rounded-full border-2 border-primary px-8 py-4 text-primary text-xl font-semibold hover:bg-primary hover:text-white transition"
     >
       Ver certificaciones
     </RouterLink>
-  </div>
-</div> <!-- 👈 FALTABA este cierre del div raíz -->
+  </div> <!-- cierra .mt-10 -->
+</div> <!-- cierra .relative pt-20 -->
+</div> <!-- ✅ cierra el root .pb-20 -->
 </template>
 
 <script setup>
