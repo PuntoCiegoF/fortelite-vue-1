@@ -41,6 +41,27 @@ Resistentes a grasa, humedad y cambios bruscos de temperatura y abrasión, para 
             text: 'Aguas',
             image: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/AGUA.jpg'
           },
+             {
+    columns: 3,
+    images: [
+      {
+        text: "Vinos",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/01-etymo-etiquetavino-1200x670-1.webp",
+      },
+      {
+        text: "Licores destilados",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/destilados.jpg",
+      },
+      {
+        text: "Licor de frutas y cremas",
+        image:
+          "https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/licor-de-frutas.jpg",
+      },
+    ],
+  },
+],
         ]
       }
     ],
