@@ -32,7 +32,7 @@
         que fabricamos, para asegurar así más resistencia, seguridad y una aliada silenciosa en ventas.
       </p>
       <img
-        src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/NOSOTROSCAMBIO.jpg" />
+        src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/Time-Line-Fortelite-Nosotros-e1723228748654.png" />
     </ContainerComponent>
 
     <hr class="my-10">
