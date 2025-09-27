@@ -82,10 +82,6 @@ export const HOME_CAROUSEL_VIDEOS =[
 
 export const HOME_CAROUSEL_IMAGES = [
   { 
-    src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0106.png', 
-    type: 'image/jpeg'
-  },
-  { 
     src: 'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/MG_0103.png', 
     type: 'image/jpeg'
   },
