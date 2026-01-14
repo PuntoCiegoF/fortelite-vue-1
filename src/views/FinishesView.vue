@@ -52,49 +52,49 @@ const finishes = [
   {
     text: 'Laminado mate',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/alimentos-salsas.jpg',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/laminadomate.jpg',
   },
   // Automotriz / nameplate
   {
     text: 'Laminado brillante',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/MG_9975-1-scaled.jpg',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/laminadobrillante.jpg',
   },
   // Industrial
   {
     text: 'Hot foil',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/DSC_2273-1.jpg',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/foil.jpg',
   },
   // Logística
   {
     text: 'Cold foil',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/iStock-1193312195-scaled.jpg',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/Coldfoil.jpg',
   },
   // Belleza / Higiene
   {
     text: 'Barniz UV',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/D_Q_NP_960747-MLU72566096108_112023-O.webp',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/banizuv.jpg',
   },
   // Farmacéutico
   {
     text: 'Emboss',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/farmaceutica.jpg',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/Emboss.jpg',
   },
   // Hogar
   {
     text: 'Deboss',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/LIMPIEZA-HOGAR.jpg.webp',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/deboss.jpg',
   },
   // Entretenimiento (bebidas/jugos como mock)
   {
     text: 'Texturizado / Especial',
     image:
-      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/il_1588xN.4679353629_g27r.jpg',
+      'https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/07/Texturizadoespecial.jpg',
   },
 ]
 </script>
