@@ -42,26 +42,27 @@
   </div>
 
   <div>
-    <carousel
-      :items-to-show="itemsToShow"
-      :breakpoints="{
-        768: { itemsToShow: 1 },
-        1024: { itemsToShow: 4 }
-      }"
-    >
-      <slide v-for="(video, idx) in carouselVideos" :key="idx">
-        <div class="carousel__item">
-          <video controls autoplay loop muted class="w-full h-[400px]">
-            <source :src="video.src" :type="video.type">
-            Tu navegador no soporta el elemento de video.
-          </video>
-        </div>
-      </slide>
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
+   <Carousel
+  :items-to-show="itemsToShow"
+  :breakpoints="{
+    768: { itemsToShow: 1 },
+    1024: { itemsToShow: 4 }
+  }"
+>
+  <Slide v-for="(video, idx) in carouselVideos" :key="idx">
+    <div class="carousel__item">
+      <video controls autoplay loop muted class="w-full h-[400px]">
+        <source :src="video.src" :type="video.type" />
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </div>
+  </Slide>
+
+  <template #addons>
+    <Navigation />
+    <Pagination />
+  </template>
+</Carousel>
   </div>
 </template>
 
