@@ -1,21 +1,5 @@
 <template>
-  <div class="carousel-iner w-full h-full">
-    <carousel class="carrousel" :items-to-show="1">
-      <slide v-for="(item, idx) in carouselImages" :key="idx">
-        <img
-          class="carousel__item w-full h-[400px] object-cover object-top"
-          :src="item.src"
-          :alt="item.alt"
-        />
-      </slide>
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
-  </div>
-
-  <div class="">
+ <div class="">
     <div class="relative py-20">
       <h1 class="text-center text-sky-300 text-6xl font-bold mb-8">NOSOTROS</h1>
       <p class="text-center text-4xl font-semibold text-primary">
