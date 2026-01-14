@@ -67,29 +67,21 @@
 </template>
 
 <script setup>
-import 'vue3-carousel/dist/carousel.css';
-import { computed } from 'vue';
-import BarComponent from '@/components/common/BarComponent.vue';
-import ContainerComponent from '@/components/common/ContainerComponent.vue';
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
-import { HOME_CAROUSEL_VIDEOS } from "@/constants";
-import { HOME_CAROUSEL_IMAGES } from "@/constants";
+import 'vue3-carousel/dist/carousel.css'
+import { computed } from 'vue'
+import BarComponent from '@/components/common/BarComponent.vue'
+import ContainerComponent from '@/components/common/ContainerComponent.vue'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import { HOME_CAROUSEL_VIDEOS } from '@/constants'
 
 const carouselVideos = computed(() => {
   return HOME_CAROUSEL_VIDEOS.map((video) => ({
     src: video.src,
     type: video.type,
-  }));
-});
+  }))
+})
 
-const carouselImages = computed(() => {
-  return HOME_CAROUSEL_IMAGES.map((image) => ({
-    src: image.src,
-    alt: image.alt,
-  }));
-});
-
-const itemsToShow = 4;
+const itemsToShow = 4
 </script>
 
 <style scoped>
