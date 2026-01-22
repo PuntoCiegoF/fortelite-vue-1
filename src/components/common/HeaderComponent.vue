@@ -1,9 +1,13 @@
 <template>
   <div class="">
     <header class="header__container flex items-center gap-20 pl-20 pr-8">
-      <RouterLink to="/">
-        <img class="w-[100px] h-[72px]" src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/LogoFortelitePrint.png" />
-      </RouterLink>
+      <RouterLink to="/" class="flex items-center">
+  <img
+    class="h-[56px] w-auto object-contain block"
+    src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/09/LogoFortelitePrint.png"
+    alt="Fortelite"
+  />
+</RouterLink>
       <nav class="ml-auto">
         <ul class="hidden lg:flex items-center gap-0">
           <li
