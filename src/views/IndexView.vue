@@ -31,16 +31,7 @@
   <!-- CONTENIDO PRINCIPAL -->
   <div class="relative">
   <ContainerComponent tag="article">
-
-    <!-- Imagen grande de ForteMR fuera del grid -->
-    <div class="w-full flex justify-center my-8">
-      <img
-        src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/ForteMR.png"
-        alt="Marca registrada Fortelite"
-        style="width: 1200px; max-width: 100%; height: auto;"
-      />
-    </div>
-
+   
     <!-- Grid original -->
     <div class="grid sm:grid-col-3 lg:grid-rows-3 lg:grid-flow-col gap-4 content-center product__container py-0">
       <div class="sm:col-span-24 content-center lg:row-span-3 mt">
