@@ -2,7 +2,7 @@
   <div class="video__container text-white text-center">
     <!-- VIDEO -->
     <video muted autoplay controls loop playsinline class="video__element" ref="reproductor" @canplay="handleCanPlay" :style="{ display: videoVisible ? 'block' : 'none' }">
-      <source src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/VIDEOINSTIMR.mp4" type="video/mp4">
+      <source src="https://lawngreen-wallaby-976278.hostingersite.com/wp-content/uploads/2024/08/220126VIDEO-INSTITUCIONAL-OFICIAL-LIGERO-MBS.mp4" type="video/mp4">
       Tu navegador no soporta el elemento de video.
     </video>
    </div>
